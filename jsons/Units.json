@@ -8,27 +8,39 @@
 		"strength": 5,
 		"rangedStrength": 10,
 		"range": 3,
-		"cost": 200,
+		"cost": 56,
 		"requiredTech": "Archery",
 		"promotions": ["Barrage III","Woodsman"],
 		"attackSound": "Archer"
-	}
-
+	},
 	{
 		"name": "Garde de Menegroth",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
 		"replaces": "Composite Bowman",
 		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 22,
+		"strength": 13,
+		"rangedStrength": 20,
 		"range": 3,
-		"cost": 460,
+		"cost": 75,
 		"requiredTech": "Machinery",
 		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
-	}
-
+	},
+	{
+		"name": "Archers de Cùthalion",
+		"unitType": "Ranged",
+		"uniqueTo": "Doriath",
+		"replaces": "Crossbowman",
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 22,
+		"range": 3,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"promotions": ["Barrage III","Cover II"],
+		"attackSound": "Composite Bowman"
+	},
 		{
 		"name": "Chasse de Doriath",
 		"unitType": "Ranged",
@@ -38,7 +50,7 @@
 		"strength": 32,
 		"rangedStrength": 33,
 		"range": 2,
-		"cost": 740,
+		"cost": 225,
 		"requiredTech": "Industrialization",
 		"promotions": ["Barrage III","Blitz", "Woodsman"],
 		"attackSound": "Archer"
@@ -53,7 +65,7 @@
 		"strength": 70,
 		"rangedStrength": 77,
 		"range": 3,
-		"cost": 1030,
+		"cost": 350,
 		"requiredTech": "Ballistics",
 		"promotions": ["Barrage III","Indirect Fire", "Woodsman"],
 		"attackSound": "Archer"
