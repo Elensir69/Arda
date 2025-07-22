@@ -48,7 +48,7 @@
 		"name": "Garde de Melian",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "machine gun",
+		"replaces": "Machine Gun",
 		"movement": 3,
 		"strength": 70,
 		"rangedStrength": 77,
