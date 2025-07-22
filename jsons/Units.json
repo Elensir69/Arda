@@ -25,7 +25,7 @@
 		"range": 3,
 		"cost": 460,
 		"requiredTech": "Machinery",
-		"promotions": ["Barrage III","Chu-ko-Nu ability"],
+		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
 	}
 
@@ -40,7 +40,7 @@
 		"range": 2,
 		"cost": 740,
 		"requiredTech": "Industrialization",
-		"promotions": ["Barrage III","Blitz", "Jaguar Ability"],
+		"promotions": ["Barrage III","Blitz", "Woodsman"],
 		"attackSound": "Archer"
 	}
 
@@ -48,14 +48,14 @@
 		"name": "Garde de Melian",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "machine Gun",
+		"replaces": "machine gun",
 		"movement": 3,
 		"strength": 70,
 		"rangedStrength": 77,
 		"range": 3,
 		"cost": 1030,
 		"requiredTech": "Ballistics",
-		"promotions": ["Barrage III","Indirect Fire", "Jaguar Ability"],
+		"promotions": ["Barrage III","Indirect Fire", "Woodsman"],
 		"attackSound": "Archer"
 	}
 	
