@@ -12,7 +12,7 @@
         "uniques": [
             "[+3 Culture] [in capital]",
             "[+1 Culture] in [all] forest in [all cities]",
-            "Only available <after adopting [Sindarin Culture]> <hidden from users>",
+            "Only available for Doriath",
         ],
         "policies": [
             {
