@@ -6,42 +6,42 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Anneau de Doriath
   rotate: false
-  xy: 112, 4
+  xy: 117, 9
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIconsJardins de Melian
   rotate: false
-  xy: 220, 4
+  xy: 223, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Doriath
   rotate: false
-  xy: 4, 4
+  xy: 510, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archers de Doriath
   rotate: false
-  xy: 328, 4
+  xy: 414, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Garde de Melian
   rotate: false
-  xy: 328, 4
+  xy: 11, 7
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Garde de Menegroth
   rotate: false
-  xy: 328, 4
+  xy: 324, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
