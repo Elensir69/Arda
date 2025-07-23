@@ -29,7 +29,14 @@
 
 		"outerColor": [5,157,194],
 		"innerColor": [84,95,97],
-		"unique": "MANIFEST_DESTINY",
+		"unique": [
+		"Peuple des Étoiles et de la Forêt",
+		"[+1 Culture] from every [Forest]",
+		"[+1 Happiness] from every [River] <when at war>",
+		"[30]% of excess happiness converted to [Culture] <after discovering [Astronomy]>",
+		"[30]% of excess happiness converted to [Science] <after discovering [Astronomy]>",
+		"Starts with [Sindarin Culture] adopted"
+		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
 			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Ost-in-Ossiriand",
 			"San Athrad","Thalos","Legolin","Brilthor","Duilwen","Adurant","Tol Galen","Elnad","Izien","Ell",
