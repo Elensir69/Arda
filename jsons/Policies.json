@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Lumière de Melian",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+            "Only available <for [Doriath]>"
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+]
