@@ -30,8 +30,7 @@
 		"outerColor": [5,157,194],
 		"innerColor": [84,95,97],
 		"uniqueName": "The Peace of Thingol",
-		"unique": [
-		"[+1 Culture] from every [Forest]",
+		"unique": ["[+1 Culture] from every [Forest]",
 		"[+1 Happiness] from every [River] <when at war>",
 		"[30]% of excess happiness converted to [Culture] <after discovering [Astronomy]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Astronomy]>",
@@ -72,8 +71,7 @@
 		"outerColor": [201,201,201],
 		"innerColor": [255,255,255],
 		"uniqueName": "The Hidden Realm",
-		"unique": [
-		"[+1 Science] from every [Mountain]",
+		"unique": ["[+1 Science] from every [Mountain]",
 		"[+2 Production] from every [Mountain]",
 		"[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
@@ -113,8 +111,7 @@
 		"outerColor": [252,220,18],
 		"innerColor": [1,215,88],
 		"uniqueName": "Beloved Finrod",
-		"unique": [
-		"[+1 Science] from every [Mountain]","[+4 Production] from every [Mountain]","[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>","[30]% of excess happiness converted to [Science] <after discovering [Architecture]>","[+2 Hapiness] [in capital] per [1] population","[-1 Hapiness] [in all cities] per [2] population"],
+		"unique": ["[+1 Science] from every [Mountain]","[+4 Production] from every [Mountain]","[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>","[30]% of excess happiness converted to [Science] <after discovering [Architecture]>","[+2 Hapiness] [in capital] per [1] population","[-1 Hapiness] [in all cities] per [2] population"],
 		"cities": ["Gondolin","?"]
 	}
 ]
