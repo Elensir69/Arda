@@ -77,7 +77,8 @@
 		"[+2 Production] from every [Mountain]",
 		"[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
-		"[+2 Hapiness] [in capital] per [1] population, [-1 Hapiness] [in all cities] per [2] population 
+		"[+2 Hapiness] [in capital] per [1] population",
+		"[-1 Hapiness] [in all cities] per [2] population"
 		],
 		"cities": ["Gondolin","?"]
 	}
