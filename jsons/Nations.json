@@ -75,6 +75,8 @@
 		"[+4 Production] from every [Mountain]",
 		"[30]% of excess happiness converted to [Production] <after discovering [Architecture]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
+		"[+100]% unhappiness from the number of cities",
+		"[-100]% Unhappiness from [Population] [in Capital]",
 		"[+100]% City Strength from defensive buildings [in capital]",
 		"Land units may cross [Mountain] tiles after the first [Great General] is earned"
 		],
