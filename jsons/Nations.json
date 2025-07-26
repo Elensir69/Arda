@@ -111,7 +111,11 @@
 		"outerColor": [252,220,18],
 		"innerColor": [1,215,88],
 		"uniqueName": "Beloved Finrod",
-		"unique": ["[+1 Science] from every [Mountain]","[+4 Production] from every [Mountain]","[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>","[30]% of excess happiness converted to [Science] <after discovering [Architecture]>","[+2 Hapiness] [in capital] per [1] population","[-1 Hapiness] [in all cities] per [2] population"],
-		"cities": ["Gondolin","?"]
+		"unique": ["Gain an extra spy",
+		"[+2 Gold] from every [hills]",
+		"[+20% Production] [in Capital]",
+		"[all units] gain the [Withdraw ability]",
+		],
+		"cities": ["Nargothrond","?"]
 	}
 ]
