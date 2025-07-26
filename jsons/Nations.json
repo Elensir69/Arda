@@ -75,9 +75,7 @@
 		"[+2 Production] from every [Mountain]",
 		"[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
-		"[+2 Hapiness] [in capital] per [1] population",
 		"[+100]% City Strength from defensive buildings [in capital]",
-		"[-1 Hapiness] [in all cities] per [2] population",
 		"Land units may cross [Mountain] tiles after the first [Great General] is earned"
 		],
 		"cities": ["Gondolin","Echoriath", "Tumladin", "Eithel Arnan", "Lanthiriel"]
@@ -115,7 +113,7 @@
 		"uniqueName": "Beloved Finrod",
 		"uniques": ["Gain an extra spy",
 		"[+2 Gold] from every [hills]",
-		"[+20% Production] [in Capital]",
+		"[+20]% Production [in Capital]",
 		"[all units] gain the [Withdraw ability]",
 		],
 		"cities": ["Nargothrond","?"]
