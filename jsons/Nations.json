@@ -71,9 +71,9 @@
 		"outerColor": [201,201,201],
 		"innerColor": [255,255,255],
 		"uniqueName": "The Hidden Realm",
-		"uniques": ["[+1 Science] from every [Mountain]",
-		"[+2 Production] from every [Mountain]",
-		"[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>",
+		"uniques": ["[+3 Science] from every [Mountain]",
+		"[+4 Production] from every [Mountain]",
+		"[30]% of excess happiness converted to [Production] <after discovering [Architecture]>",
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
 		"[+100]% City Strength from defensive buildings [in capital]",
 		"Land units may cross [Mountain] tiles after the first [Great General] is earned"
@@ -116,7 +116,7 @@
 		"[+20]% Production [in Capital]",
 		"[all units] gain the [Withdraw ability]",
 		],
-		"cities": ["Nargothrond","?"]
+		"cities": ["Nargothrond","Garthurian", "Tawarond", "Barad Lómin", "Culúlindon"]
 	},
 		{
 		"name": "Falas",
@@ -149,7 +149,7 @@
 		"outerColor": [0,47,167],
 		"innerColor": [0,204,203],
 		"uniqueName": "Friends of the Sea",
-		"uniques": ["[+50% Production] for <Water [Units]>",
+		"uniques": ["[+50% Production] <for water [Units]>",
 		"[-50]% maintenance costs <for [Water] units>",
 		"[+1 Culture] from every [Water] tiles",
 		"Gain a free [Harbor] [in all coastal cities]",
