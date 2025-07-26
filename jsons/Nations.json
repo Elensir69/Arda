@@ -81,5 +81,40 @@
 		"[-1 Hapiness] [in all cities] per [2] population"
 		],
 		"cities": ["Gondolin","?"]
+	},
+	{
+		"name": "Nargothrond",
+		"leaderName": "Finrod",
+		"adjective": ["Nargothrondian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [252,220,18],
+		"innerColor": [1,215,88],
+		"uniqueName": "Beloved Finrod",
+		"unique": [
+		"[+1 Science] from every [Mountain]","[+4 Production] from every [Mountain]","[30]% of excess happiness converted to [Culture] <after discovering [Architecture]>","[30]% of excess happiness converted to [Science] <after discovering [Architecture]>","[+2 Hapiness] [in capital] per [1] population","[-1 Hapiness] [in all cities] per [2] population"],
+		"cities": ["Gondolin","?"]
 	}
 ]
