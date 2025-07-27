@@ -1,46 +1,88 @@
 NationIcons.png
-size: 610, 110
+size: 700, 700
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Anneau de Doriath
-  rotate: false
-  xy: 117, 9
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIconsJardins de Melian
-  rotate: false
-  xy: 223, 5
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 NationIcons/Doriath
+  rotate: false
+  xy: 141, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Gondolin
+  rotate: false
+  xy: 241, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nargothrond
+  rotate: false
+  xy: 120, 134
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Falas
   rotate: false
   xy: 510, 5
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Archers de Doriath
+NationIcons/Hitlhum
   rotate: false
-  xy: 414, 5
+  xy: 220, 134
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Garde de Melian
+NationIcons/Himring
   rotate: false
-  xy: 11, 7
+  xy: 20, 27
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Garde de Menegroth
+NationIcons/Thargelion
   rotate: false
-  xy: 324, 5
+  xy: 20, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ossiriand
+  rotate: false
+  xy: 510, 5
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Maglor's Gap
+  rotate: false
+  xy: 20, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Himlad
+  rotate: false
+  xy: 20, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/South Marches
+  rotate: false
+  xy: 20, 27
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ard-Galen
+  rotate: false
+  xy: 20, 134
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
