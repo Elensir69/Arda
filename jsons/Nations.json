@@ -30,16 +30,14 @@
 		"outerColor": [5,157,194],
 		"innerColor": [84,95,97],
 		"uniqueName": "The Peace of Thingol",
-		"uniques": ["[+1 Culture] from [Forest]",
+		"uniques": ["[+2 Culture] from [Forest]",
 		"[+1 Happiness] from [River] tiles <when at war>",
 		"[30]% of excess happiness converted to [Culture]",
 		"[30]% of excess happiness converted to [Science]",
 		"[+20]% Strength <in [your] tiles>",
 		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
-			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Ost-in-Ossiriand",
-			"San Athrad","Thalos","Legolin","Brilthor","Duilwen","Adurant","Tol Galen","Elnad","Izien","Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb",,"Elnad","Izien","Ell"]
 	},
 	{
 		"name": "Gondolin",
@@ -272,9 +270,48 @@
 		"uniques": ["[+4 Gold] from each Trade Route",
 		"Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
-		"[+20]% [Gold] [in your cities] <upon declaring friendship> <every [positiveAmount] turns>",
+		"[+20]% [Gold] [in your cities] <upon declaring friendship>",
 		"[+100]% [Iron] resource production",
 		],
 		"cities": ["Helevorn","Mount Rerir"]
+	},
+	{
+		"name": "Ossiriand",
+		"leaderName": "Denethor",
+		"adjective": ["Laiquendi"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [64,130,109],
+		"innerColor": [135,233,144],
+		"uniqueName": "Land of songs",
+		"uniques": ["[+2 Culture] from [Forest]",
+		"[+1 Happiness] from [River] tiles <when at war>",
+		"[50]% of excess happiness converted to [Culture]",
+		"[+50]% Strength <in [River] tiles>",
+		"[Ranged] units gain the [Invisible] promotion"
+		],
+		"cities": ["Dor Firn-i-Guinar", "Ost-in-Ossiriand","San Athrad", "Tol Galen","Thalos","Legolin","Brilthor","Duilwen","Adurant"]
 	},
 ]
