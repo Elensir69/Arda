@@ -345,7 +345,7 @@
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
 		"outerColor": [108,2,119],
-		"innerColor": [255,9,3],
+		"innerColor": [223, 115, 255],
 		"uniqueName": "Noldolantë",
 		"uniques": ["Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
@@ -461,8 +461,8 @@
 		"afterPeace": "Very well, all that fighting was getting boring anyway.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
-		"outerColor": [254,150,160],
-		"innerColor": [255,127,0],
+		"outerColor": [254,254,254],
+		"innerColor": [87, 213, 59],
 		"uniqueName": "Noldorin Hunters",
 		"uniques": ["Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
