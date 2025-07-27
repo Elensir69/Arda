@@ -32,10 +32,9 @@
 		"uniqueName": "The Peace of Thingol",
 		"uniques": ["[+2 Culture] from [Forest] tiles [in your cities]",
 		"[+1 Happiness] from [River] tiles <when at war>",
-		"[30]% of excess happiness converted to [Culture]",
 		"[30]% of excess happiness converted to [Science]",
 		"[+20]% Strength <in [your] tiles>",
-		"[-20]% Strength <in [Enemy Land] tiles>",
+		"[-30]% Strength <in [Enemy Land] tiles>",
 		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
 			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Elnad","Izien","Ell"]
@@ -192,6 +191,8 @@
 		"uniqueName": "High King of Noldor",
 		"uniques": ["[+2 Production] from every [tiles] <when at war>",
 		"When declaring friendship, both parties gain a [70]% boost to great person generation",
+		"[+10]% [Production] [in your cities] <upon declaring friendship>",
+		"[+10]% [Culture] [in your cities] <upon declaring friendship>",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[-50]% maintenance costs <for [Mounted] units>",
 		"[+100]% [Horses] resource production",
@@ -311,7 +312,7 @@
 		"[+1 Happiness] from [River] tiles <when at war>",
 		"[50]% of excess happiness converted to [Culture]",
 		"[+50]% Strength <in [River] tiles>",
-		"[Ranged] units gain the [Invisible] promotion",
+		"[Ranged] units gain the [Invisible to others] promotion",
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		],
 		"cities": ["Dor Firn-i-Guinar", "Ost-in-Ossiriand","San Athrad", "Tol Galen","Thalos","Legolin","Brilthor","Duilwen","Adurant"]
@@ -390,7 +391,8 @@
 		"uniques": ["Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[+30]% Strength <within [2] tiles of a [Mountain]> <for [Military] units>",
-		"[+1 Culture] from every [Mountain] tiles [in your cities]",
+		"[+4 Culture] from every [Mountain] tiles [in your cities]",
+		"[+1 Production] from every [improved] <in tiles adjacent to [Mountains] tiles>",
 		],
 		"cities": ["Himlad", "Celon Pass", "Ford of Aros"]
 	},
@@ -429,7 +431,8 @@
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[+1] Sight <for [Land] units>",
 		"[+1] Sight <for [Ranged] units>",
-		"[+1 Production, +1 Food] from every [Camp] improvements [in your cities]",
+		"[+2 Production] from every [Camp] improvements [in your cities]",
+		"[+2 Food] from every [Camp] improvements [in your cities]",
 		],
 		"cities": ["Amon Ereb", "Estolad Plains", "South Hills"]
 	},
@@ -469,6 +472,7 @@
 		"[+1] Sight <for [Land] units>",
 		"[Land] units gain the [Shock III] promotion",
 		"[+1 Production] from every [Plains] tiles [in your cities]",
+		"[+1 Production] from every [Grassland] tiles [in your cities]"
 		],
 		"cities": ["Aglon", "Dorthonion", "High Marches"]
 	},
