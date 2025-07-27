@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Stars Era",
+		"era": "Âge des Étoiles",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -16,7 +16,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Stars Era",
+		"era": "Âge des Étoiles",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -53,7 +53,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Stars Era",
+		"era": "Âge des Étoiles",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -76,7 +76,7 @@
 				"name": "Contact avec Valinor",
 				"row": 5,
 				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"], [Only available <for ["Nargothrond", "Doriath", "Ossiriand", "Gondolin", "Hitlum", "Himring", "Falas", "Thargelion", "Maglor's Gap", "Himlad", "South Marches", "Ard-Galen"] Civilizations> <while the empire is happy>
+                "uniques": ["[+100]% weight to this choice for AI decisions"], ["Only available <for [Nargothrond, Doriath, Ossiriand, Gondolin, Hitlum, Himring, Falas, Thargelion, Maglor's Gap, Himlad, South Marches, Ard-Galen] Civilizations> <while the empire is happy>"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 		]
