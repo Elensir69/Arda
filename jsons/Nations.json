@@ -310,7 +310,8 @@
 		"[+1 Happiness] from [River] tiles <when at war>",
 		"[50]% of excess happiness converted to [Culture]",
 		"[+50]% Strength <in [River] tiles>",
-		"[Ranged] units gain the [Invisible] promotion"
+		"[Ranged] units gain the [Invisible] promotion",
+		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		],
 		"cities": ["Dor Firn-i-Guinar", "Ost-in-Ossiriand","San Athrad", "Tol Galen","Thalos","Legolin","Brilthor","Duilwen","Adurant"]
 	},
