@@ -77,7 +77,7 @@
 		"[30]% of excess happiness converted to [Science] <after discovering [Architecture]>",
 		"[+100]% unhappiness from the number of cities",
 		"[-100]% Unhappiness from [Population] [in Capital]",
-		"[+100]% City Strength from defensive buildings [in capital]",
+		"[+100]% City Strength from defensive buildings [in Capital]",
 		"Land units may cross [Mountain] tiles after the first [Great General] is earned"
 		],
 		"cities": ["Gondolin","Echoriath", "Tumladin", "Eithel Arnan", "Lanthiriel"]
@@ -197,5 +197,83 @@
 		"[+100]% [Horses] resource production",
 		],
 		"cities": ["Barad Eithel","Eithel Sirion", "Mithrim"]
+	},
+			{
+		"name": "Himring",
+		"leaderName": "Maedhros",
+		"adjective": ["Noldor"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [255,215,0],
+		"innerColor": [237,127,16],
+		"uniqueName": "Feanor's Sons",
+		"uniques": ["[+2 Production] from every [Hill]",
+		"Great General provides double combat bonus",
+		"[+20]% Strength <when fighting units from another Civilization>",
+		"[+1 Production] from every [Strategic resource]",
+		"[+100]% [Iron] resource production",
+		],
+		"cities": ["Himring","Maglor's Gap", "Eastern March"]
+	},
+				{
+		"name": "Thargelion",
+		"leaderName": "Caranthir",
+		"adjective": ["Noldor"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [250,164,1],
+		"innerColor": [235,0,0],
+		"uniqueName": "Trade with Beleriand",
+		"uniques": ["[+4 Gold] from each Trade Route"",
+		"Great General provides double combat bonus",
+		"[+10]% Strength <when fighting units from another Civilization>",
+		"Retain [50]% of the happiness from a luxury after the last copy has been traded away",
+		"[+100]% [Iron] resource production",
+		],
+		"cities": ["Helevorn","Mount Rerir"]
 	},
 ]
