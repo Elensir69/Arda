@@ -31,7 +31,7 @@
 		"innerColor": [84,95,97],
 		"uniqueName": "The Peace of Thingol",
 		"uniques": ["[+1 Culture] from [Forest]",
-		"[+1 Happiness] <from [River] tiles> <when at war>",
+		"[+1 Happiness] from [River] tiles <when at war>",
 		"[30]% of excess happiness converted to [Culture]",
 		"[30]% of excess happiness converted to [Science]",
 		"[+20]% Strength <in [your] tiles>",
@@ -117,7 +117,7 @@
 		"uniques": ["Gain an extra spy",
 		"[+2 Gold] from every [hills]",
 		"[+20]% [Production] [in capital]",
-		"Invisible to non-adjacent units <for [Land] units>",
+		"[Land] units gain the [Invisible to non-adjacent units] promotion",
 		],
 		"cities": ["Nargothrond","Garthurian", "Tawarond", "Barad Lómin", "Culúlindon"]
 	},
@@ -272,7 +272,7 @@
 		"uniques": ["[+4 Gold] from each Trade Route",
 		"Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
-		"Retain [50]% of the happiness from a luxury after the last copy has been traded away",
+		"[+20]% [Gold] [in your cities] <upon declaring friendship> <every [positiveAmount] turns>",
 		"[+100]% [Iron] resource production",
 		],
 		"cities": ["Helevorn","Mount Rerir"]
