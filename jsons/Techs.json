@@ -1,0 +1,83 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Stars Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Langue Ancienne",
+				"row": 6,
+				"quote": "« A Elbereth Gilthoniel, silivren penna míriel, o menel aglar elenath ! Na-chaered palan-díriel, o galadhremmin ennorath, Fanuilos, le linnathon, nef aear, sí nef aearon ! » — Le Seigneur des Anneaux — Livre II — Chapitre 1'",
+				"uniques": ["Starting tech"]
+			}
+		]
+	{
+		"columnNumber": 1,
+		"era": "Stars Era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Fabrication de base",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "« Au nord de la haute cime du mont Dolmed se trouvait Gabilgathol, que les Elfes rendaient dans leur langue par Belegost, c'est-à-dire Grandfort… » — Le Silmarillion — Quenta Silmarillion — Chapitre 10"
+			},
+			{
+				"name": "Contes de l'Ancien Monde",
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"quote": "?"
+			},
+			{
+				"name":"Archery",
+				"row": 8,
+				"prerequisites": ["Agriculture"],
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Forgerie rudimentaire",
+				"row": 10,
+				"prerequisites": ["Agriculture"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "?"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Stars Era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Pêche et Navigation côtière",
+				"row": 2,
+				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Domptage",
+				"row": 9,
+				"prerequisites": ["Archery", "Forgerie Rudimentaire"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},
+      {
+				"name": "Contact avec Valinor",
+				"row": 5,
+				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+		]
+	},
+]
