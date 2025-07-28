@@ -72,7 +72,7 @@
 				"row": 9,
 				"prerequisites": ["Archery", "Forgerie Rudimentaire"],
                			"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "?"
 			},
 			{
 				"name": "Astronomie",
@@ -114,7 +114,7 @@
 			{
 				"name": "Carte de Beleriand",
 				"row": 8,
-				"prerequisites": ["Domptage",
+				"prerequisites": ["Domptage"],
 				"uniques" : ["Reveals the entire map"],
 				"quote": "?"
 			},
