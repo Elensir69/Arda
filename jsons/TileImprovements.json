@@ -98,6 +98,15 @@
 		"uniques": ["[+1 Gold] <after discovering [Arts de la Mer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Forage Marin",
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"Culture": 1,
+		"techRequired": "Feu Secret",
+		"uniques": ["[+1 Production] <after discovering [Arts de la Mer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
 
 	// Military improvement
 	{
