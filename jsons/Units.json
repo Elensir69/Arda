@@ -101,7 +101,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Forges Rudimentaires",
+		"obsoleteTech": "Forges rudimentaires",
 		"upgradesTo": "Spearmab",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
@@ -190,7 +190,7 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Forges Rudimentaires",
+		"requiredTech": "Forges rudimentaires",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
