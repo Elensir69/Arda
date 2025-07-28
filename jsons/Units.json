@@ -17,13 +17,12 @@
 		"name": "Garde de Menegroth",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "Composite Bowman",
 		"movement": 3,
 		"strength": 13,
 		"rangedStrength": 20,
 		"range": 3,
 		"cost": 75,
-		"requiredTech": "Machinery",
+		"requiredTech": "Architecture",
 		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
 	},
@@ -31,13 +30,12 @@
 		"name": "Archers de Cùthalion",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "Crossbowman",
 		"movement": 3,
 		"strength": 15,
 		"rangedStrength": 22,
 		"range": 3,
 		"cost": 120,
-		"requiredTech": "Machinery",
+		"requiredTech": "Conseil des Rois",
 		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
 	},
@@ -45,13 +43,12 @@
 		"name": "Chasse de Doriath",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "Gatling Gun",
 		"movement": 4,
 		"strength": 32,
 		"rangedStrength": 33,
 		"range": 2,
 		"cost": 225,
-		"requiredTech": "Industrialization",
+		"requiredTech": "Grandes Gardes",
 		"promotions": ["Barrage III","Blitz", "Woodsman"],
 		"attackSound": "Archer"
 	}
@@ -60,15 +57,538 @@
 		"name": "Garde de Melian",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
-		"replaces": "Machine Gun",
 		"movement": 3,
 		"strength": 70,
 		"rangedStrength": 77,
 		"range": 3,
 		"cost": 350,
-		"requiredTech": "Ballistics",
+		"requiredTech": "Culte",
 		"promotions": ["Barrage III","Indirect Fire", "Woodsman"],
 		"attackSound": "Archer"
 	}
-	
+	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+
+	/* Ancient Era */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [4] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Forges Rudimentaires",
+		"upgradesTo": "Spearmab",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        	"civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Armurery",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Pêche et Navigation côtière",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Marine de Guerre]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Pêche et Navigation côtière",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Marine de Guerre]>", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Marine de Guerre]>"],
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "War Chariot",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Savoir Nain",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horse Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Domptage",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Forges Rudimentaires",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Battering Ram",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Armurerie",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+		"[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+
+	/* Classical Era */
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Companion Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Greece",
+		"replaces": "Horseman",
+		"movement": 5,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals I"],
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "African Forest Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "Carthage",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 14,
+		"cost": 100,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals II"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Cataphract",
+		"unitType": "Mounted",
+		"uniqueTo": "Byzantium",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Armurerie",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+
+	// Medieval Era
+	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Tactiques de Combat",
+		"uniques": ["[+70]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Marine de Guerre",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Marine de Guerre]>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Tactiques de Combat",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Keshik",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Escarmourches",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Great Generals I", "Quick Study"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Tactiques de Combat",
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Sciences des Armes",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Longbowman",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Escarmourches",
+		"promotions": ["Extended Range"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Stratégie du Siège",
+		"obsoleteTech": "Chemistry",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Tactiques de Combat",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Créature de l'Ombre",
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	/* Great people */
+
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "Is part of Great Person group [Prophet]",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+
+	/* Religious units */
+
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+	},
+
+	/* Spaceship Parts */
+
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	}
 ]
