@@ -74,10 +74,17 @@
                			"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			},
-    		  	{
+			{
+				"name": "Astronomie",
+				"row": 3,
+				"prerequisites": ["Contes de l'Ancien Monde"],
+               			"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "?",
+			},
+			{
 				"name": "Contact avec Valinor",
 				"row": 5,
-				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde", "Only available <for [Nargothrond, Doriath, Ossiriand, Gondolin, Hitlum, Himring, Falas, Thargelion, Maglor's Gap, Himlad, South Marches, Ard-Galen] Civilizations> <while the empire is happy>"],
+				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde", "Only available <for [South Marches] Civilizations> <for [Ard-Galen] Civilizations> <for [Himlad] Civilizations> <for [Maglor's Gap] Civilizations> <for [Thargelion] Civilizations> <for [Falas] Civilizations> <for [Himring] Civilizations> <for [Hitlum] Civilizations> <for [Gondolin] Civilizations> <for [Nargothrond] Civilizations> <for [Doriath] Civilizations> <for [Ossiriand] Civilizations> <while the empire is happy>"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
@@ -107,14 +114,14 @@
 			{
 				"name": "Carte de Beleriand",
 				"row": 8,
-				"prerequisites": ["Domptage", "Only available <for [Nargothrond, Doriath, Ossiriand, Gondolin, Hitlum, Himring, Falas, Thargelion, Maglor's Gap, Himlad, South Marches, Ard-Galen] Civilizations> <while the empire is happy>"],
+				"prerequisites": ["Domptage",
 				"uniques" : ["Reveals the entire map"],
 				"quote": "?"
 			},
 			{
 				"name": "Commerce",
 				"row": 10,
-				"prerequisites": ["Domptage"],
+				"prerequisites": ["Domptage", "Enables Open Borders agreements"],
                			"uniques": ["Roads connect tiles across rivers", "[+100]% weight to this choice for AI decisions"],
 				"quote": "?"
 			}
@@ -142,7 +149,7 @@
 			{
 				"name": "Mines Naines",
 				"row": 5,
-				"prerequisites": ["Architecture", "Only available <for [Belegost, Nogrod] Civilizations> <while the empire is happy>"],
+				"prerequisites": ["Architecture", "Only available <for [Belegost] Civilizations> <for [Nogrod] Civilizations> <while the empire is happy>"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
@@ -155,4 +162,269 @@
 			},
 		]
 	},
+	{
+		"columnNumber": 5,
+		"era": "Marche contre Morgoth",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Conseil des Rois",
+				"row": 2,
+				"prerequisites": ["Art et Poésie"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Éducation",
+				"row": 4,
+				"prerequisites": ["Art et Poésie"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements", "[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Guildes",
+				"row": 8,
+				"prerequisites": ["Feu Secret"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "?"
+			},
+			{
+				"name": "Orfèvrerie",
+				"row": 10,
+				"prerequisites": ["Feu Secret"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "?"
+			}
+		]
+	},
+		{
+		"columnNumber": 6,
+		"era": "Marche contre Morgoth",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Fortifications",
+				"cost": 375,
+				"row": 1,
+				"prerequisites": ["Conseil des Rois"],
+                		"uniques": ["Enables Defensive Pacts", "Improves movement speed on roads", "[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Tactiques de Combat",
+				"row": 2,
+				"prerequisites": ["Conseil des Rois", "Éducation"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Chants de Guerre",
+				"row": 3,
+				"prerequisites": ["Éducation", "Guildes"],
+                		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Créature des l'Ombre",
+				"row": 5,
+				"prerequisites": ["Orfèvrerie"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
+			{
+				"name": "Louanges aux Héros",
+				"row": 8,
+				"prerequisites": ["Orfèvrerie"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Marine de Guerre",
+				"row": 10,
+				"prerequisites": ["Orfèvrerie"],
+                		"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles", "[-50]% weight to this choice for AI decisions"],
+				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Siège de l'Angband",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Stratégie du Siège",
+				"row": 2,
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"prerequisites": ["Fortifications", "Only available <before discovering [Escarmourches]>"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "Grandes Gardes",
+				"row": 4,
+				"prerequisites": ["Tactiques de Combat"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+			},
+			{
+				"name": "Escarmouches",
+				"row": 6,
+				"prerequisites": ["Tactiques de Combat", "Only available <before discovering [Stratégie du Siège]>"],
+               			"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "Logistique Avancée",
+				"row": 8,
+				"prerequisites": ["Louanges aux Héros"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "Science des Armes",
+				"row": 10,
+				"prerequisites": ["Louanges aux Héros"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Siège de l'Angband",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
+			{
+				"name": "Sagesse Elfique",
+				"row": 2,
+				"prerequisites": ["Grandes Gardes", "Only available <for [South Marches] Civilizations> <for [Ard-Galen] Civilizations> <for [Himlad] Civilizations> <for [Maglor's Gap] Civilizations> <for [Thargelion] Civilizations> <for [Falas] Civilizations> <for [Himring] Civilizations> <for [Hitlum] Civilizations> <for [Gondolin] Civilizations> <for [Nargothrond] Civilizations> <for [Doriath] Civilizations> <for [Ossiriand] Civilizations> <while the empire is happy>"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "Espoir des Hommes",
+				"row": 4,
+				"prerequisites": ["Grandes Gardes"],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+			{
+				"name": "Réforme du Pouvoir",
+				"row": 6,
+				"prerequisites": ["Grandes Gardes"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "Savoir Nain",
+				"row": 8,
+				"prerequisites": ["Science des Armes", "Only available <for [Belegost] Civilizations> <for [Nogrod] Civilizations> <while the empire is happy>"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Magie Obscure",
+				"row": 10,
+				"prerequisites": ["Science des Armes"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Chute du Monde",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Culte",
+				"row": 1,
+				"prerequisites": ["Réforme du Pouvoir"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			},
+			{
+				"name": "Connaissances de la Terre",
+				"row": 3,
+				"prerequisites": ["Réforme du Pouvoir"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+			},
+			{
+				"name": "Marche des Hommes",
+				"row": 5,
+				"prerequisites": ["Réforme du Pouvoir"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+			},
+			{
+				"name": "Arts de la Mer",
+				"row": 7,
+				"prerequisites": ["Réforme du Pouvoir"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "Grandes Forges",
+				"row": 9,
+				"prerequisites": ["Réforme du Pouvoir"],
+				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+			},
+			{
+				"name": "Exode",
+				"row": 10,
+				"prerequisites": ["Réforme du Pouvoir"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Chute du Monde",
+		"techCost": 4720,
+		"buildingCost": 360,
+		"wonderCost": 900,
+		"techs": [
+			{
+				"name": "Silmaril d'Eärendil",
+				"row": 1,
+				"prerequisites": ["Culte", "Connaissances de la Terre", "Arts de la Mer", "Grandes Forges", "Exode"],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+			{
+				"name": "Silmaril des Mers",
+				"row": 5,
+				"prerequisites": ["Culte", "Connaissances de la Terre", "Arts de la Mer", "Grandes Forges", "Exode"],
+				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+			},
+			{
+				"name": "Silmaril des Profondeurs de la Terre",
+				"row": 10,
+				"prerequisites": ["Culte", "Connaissances de la Terre", "Arts de la Mer", "Grandes Forges", "Exode"],
+				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Second Âge",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Futur Incertain",
+				"row": 5,
+				"prerequisites": ["Silmaril d'Eärendil", "Silmaril des Mers", "Silmaril des Profondeurs de la Terre"],
+				"uniques": ["Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+                		"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+		]
+	}
 ]
