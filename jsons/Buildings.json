@@ -142,7 +142,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "Pêche et Navigation Côtière"
+		"requiredTech": "Pêche et Navigation côtière"
 	},
 	{
 		"name": "Walls",
@@ -198,7 +198,7 @@
 		"maintenance": 1,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
-		"requiredTech": "Pêche et Navigation Côtière"
+		"requiredTech": "Pêche et Navigation côtière"
 	},
 	{
 		"name": "The Great Lighthouse",
@@ -208,7 +208,7 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
-		"requiredTech": "Pêche et Navigation Côtière",
+		"requiredTech": "Pêche et Navigation côtière",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
 	{
@@ -296,12 +296,11 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Art et Poésie",
+		"specialistSlots": {"Great Artist": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Art et Poésie"
 	},
 	{
 		"name": "National Epic",
@@ -314,7 +313,7 @@
 	{
 		"name": "Market",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Great Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Commerce"
@@ -448,7 +447,7 @@
 		"name": "Workshop",
 		"maintenance": 2,
 		"production": 2,
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Great Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Orfèvrerie"
@@ -562,7 +561,7 @@
 	{
 		"name": "Opera House",
 		"culture": 4,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Great Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -575,13 +574,13 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[+25]% [Culture] [in all cities]"],
-		"requiredTech": "Arts et Poésie",
+		"requiredTech": "Art et Poésie",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
 		"name": "Bank",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Great Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
@@ -593,12 +592,12 @@
         	"maintenance": 1,
         	"hurryCostModifier": 10,
         	"uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
-        	"requiredTech": "Banking"
+        	"requiredTech": "Réforme du Pouvoir"
     	},
 	{
 		"name": "Hanse",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Great Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
@@ -682,7 +681,7 @@
 	{
 		"name": "Windmill",
 		"production": 2,
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Great Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
@@ -695,7 +694,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Réforme du Pouvoir",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 
@@ -707,7 +706,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Great Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
