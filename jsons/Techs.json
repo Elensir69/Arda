@@ -118,7 +118,9 @@
                			"uniques": ["Roads connect tiles across rivers", "[+100]% weight to this choice for AI decisions"],
 				"quote": "?"
 			}
-			{
+		]
+	},
+	{
 		"columnNumber": 4,
 		"era": "Éveil des Royaumes",
 		"techCost": 175,
