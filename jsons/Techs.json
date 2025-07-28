@@ -25,32 +25,33 @@
 				"name": "Fabrication de base",
 				"row": 1,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "« Au nord de la haute cime du mont Dolmed se trouvait Gabilgathol, que les Elfes rendaient dans leur langue par Belegost, c'est-à-dire Grandfort… » — Le Silmarillion — Quenta Silmarillion — Chapitre 10"
 			},
 			{
 				"name": "Contes de l'Ancien Monde",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
+				"uniques": ["Enables establishment of embassies"],
 				"quote": "?"
 			},
 			{
 				"name":"Archery",
 				"row": 8,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
 				"name": "Forgerie rudimentaire",
 				"row": 10,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "?"
 			}
 
 		]
-	},
+	},	
 	{
 		"columnNumber": 2,
 		"era": "Âge des Étoiles",
@@ -62,22 +63,93 @@
 				"name": "Pêche et Navigation côtière",
 				"row": 2,
 				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
 				"name": "Domptage",
 				"row": 9,
 				"prerequisites": ["Archery", "Forgerie Rudimentaire"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
+               			"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			},
     		  	{
 				"name": "Contact avec Valinor",
 				"row": 5,
 				"prerequisites": ["Fabrication de base", "Contes de l'Ancien Monde", "Only available <for [Nargothrond, Doriath, Ossiriand, Gondolin, Hitlum, Himring, Falas, Thargelion, Maglor's Gap, Himlad, South Marches, Ard-Galen] Civilizations> <while the empire is happy>"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Éveil des Royaumes",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Organisation Clanique",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Pêche et Navigation côtière"],
+				"quote": "?"
+			},
+			{
+				"name": "Architecture",
+				"row": 3,
+				"prerequisites": ["Pêche et Navigation côtière"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "?"
+			},
+			{
+				"name": "Carte de Beleriand",
+				"row": 8,
+				"prerequisites": ["Domptage", "Only available <for [Nargothrond, Doriath, Ossiriand, Gondolin, Hitlum, Himring, Falas, Thargelion, Maglor's Gap, Himlad, South Marches, Ard-Galen] Civilizations> <while the empire is happy>"],
+				"uniques" : ["Reveals the entire map"],
+				"quote": "?"
+			},
+			{
+				"name": "Commerce",
+				"row": 10,
+				"prerequisites": ["Domptage"],
+               			"uniques": ["Roads connect tiles across rivers", "[+100]% weight to this choice for AI decisions"],
+				"quote": "?"
+			}
+			{
+		"columnNumber": 4,
+		"era": "Éveil des Royaumes",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Armurerie",
+				"row": 2,
+				"prerequisites": ["Organisation Clanique"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Art et Poésie",
+				"row": 3,
+				"prerequisites": ["Organisation Clanique", "Architecture"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "Mines Naines",
+				"row": 5,
+				"prerequisites": ["Architecture", "Only available <for [Belegost, Nogrod] Civilizations> <while the empire is happy>"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Feu Secret",
+				"row": 9,
+				"prerequisites": ["Architecture"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 		]
 	},
