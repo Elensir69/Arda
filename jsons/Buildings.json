@@ -296,7 +296,7 @@
 	{
 		"name": "Amphitheater",
 		"culture": 3,
-		"specialistSlots": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
@@ -313,7 +313,7 @@
 	{
 		"name": "Market",
 		"gold": 2,
-		"specialistSlots": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Commerce"
@@ -447,7 +447,7 @@
 		"name": "Workshop",
 		"maintenance": 2,
 		"production": 2,
-		"specialistSlots": {"Great Engineer": 1},
+		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Orfèvrerie"
@@ -561,7 +561,7 @@
 	{
 		"name": "Opera House",
 		"culture": 4,
-		"specialistSlots": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
@@ -580,7 +580,7 @@
 	{
 		"name": "Bank",
 		"gold": 2,
-		"specialistSlots": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
@@ -597,7 +597,7 @@
 	{
 		"name": "Hanse",
 		"gold": 2,
-		"specialistSlots": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
@@ -681,7 +681,7 @@
 	{
 		"name": "Windmill",
 		"production": 2,
-		"specialistSlots": {"Great Engineer": 1},
+		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
@@ -706,7 +706,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
