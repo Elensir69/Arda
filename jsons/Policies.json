@@ -10,9 +10,9 @@
             "Scientific": 5
         },
         "uniques": [
+            "Only available <after adopting [Lumière de Melian]>",
             "[+3 Culture] [in capital]",
             "[+1 Culture] in [all] forest in [all cities]",
-            "Only available for Doriath",
         ],
         "policies": [
             {
@@ -64,6 +64,942 @@
             },
             {
                 "name": "Lumière de Melian Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Culture Sinda",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Culture Sinda]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Lumière de Melian Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Peuple des Étoiles",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Peuple des Étoiles]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Lumière de Melian Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Cité Secrète",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Cité Secrète]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Cité Secrète",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Cité Secrète Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Culture Noldo",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Peuple des Étoiles]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Culture Noldo Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Amis d'Ulmo",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Amis d'Ulmo]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Amis d'Ulmo Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Haut-Roi des Noldor",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Haut-Roi des Noldor]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Haut-Roi des Noldor Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Serment de Feanor",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Serment de Feanor]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Lumière de Melian Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fidèle d'Oromë",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Fidèle d'Oromë]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Fidèle d'Oromë Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Seigneurs du Sud",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Seigneurs du Sud]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Seigneurs du Sud Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Grands Forgerons",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Grands Forgerons]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Grands Forgerons Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Culture Naine",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Culture Naine]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Culture Naine Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Khazad",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Khazad]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Khazad Complete",
+                "uniques": [
+                    "[+15]% Culture [in all cities]",
+                    "[+100]% Yield from every [Great Improvement]"
+                ]
+            }
+        ]
+    },
+        {
+        "name": "Grands Architectes",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Grands Architectes]>",
+            "[+3 Culture] [in capital]",
+            "[+1 Culture] in [all] forest in [all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Peuple sous les étoiles",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Loi de Thingol",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Défense des Frontières",
+                "uniques": [
+                    "Units in [all] cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarcie",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Silmaril",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                ],
+                "requires": ["Loi de Thingol"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Grands Architectes Complete",
                 "uniques": [
                     "[+15]% Culture [in all cities]",
                     "[+100]% Yield from every [Great Improvement]"
