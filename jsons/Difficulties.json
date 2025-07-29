@@ -141,7 +141,7 @@
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Fabrication de Base"],
+		"aiFreeTechs": ["Fabrication de base"],
 		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
