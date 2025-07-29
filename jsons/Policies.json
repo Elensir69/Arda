@@ -187,7 +187,7 @@
             {
                 "name": "Lueur contre l'Ombre",
                 "uniques": [
-                    "[+30]% Strength <vs [Monstres] units>""
+                    "[+30]% Strength <vs [Monstres] units>"
                 ],
                 "requires": ["Nuit d'Éveil", "Mémoire Ancestrale"],
                 "row": 2,
