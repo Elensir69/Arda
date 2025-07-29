@@ -37,17 +37,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Forges Rudimentaires",
-		"uniques": ["[+1 Production] <after discovering [Grandes Forges]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Grandes Forges]>", "[+4 Production] <after discovering [Mines Naines]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
-	},
-		{
-		"name": "Mine Naine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Forges Rudimentaires",
-		"uniques": ["[+2 Production] <after discovering [Mines Naines]>", "Pillaging this improvement yields approximately [+22 Gold]"],
-		"shortcutKey": "N"
 	},
 	{
 		"name": "Trading post",
