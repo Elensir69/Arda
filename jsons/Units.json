@@ -498,6 +498,116 @@
 		"movement": 3
 	},
 	{
+		"name": "Aigles de Manwë",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 10,
+		"interceptRange": 10,
+		"requiredTech": "Feu Secret",
+		"requiredResource": "Pierres de Magie",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Unbuildable"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Chasseurs d'Oromë",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"range": 2,
+		"requiredTech": "Feu Secret",
+		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable"],
+		"promotions": ["Barrage III","Woodsman"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Juge",
+		"unitType": "Civilian",
+		"uniques": [
+            	"Can Spread Religion <for [4] movement> <[10] times> <after which this unit is consumed>", "Prevents spreading of religion to the city it is next to",
+            	"May enter foreign tiles without open borders",
+		"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Soigneurs",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 15,
+		"requiredTech": "Feu Secret",
+		"uniques": ["All adjacent units heal [+40] HP when healing", "[+40] HP when healing", "Never appears as a Barbarian unit", "Unbuildable"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Guerriers de Tulkas",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 25,
+		"requiredTech": "Feu Secret",
+		"uniques": ["[+100]% Strength <vs [Lands] units>", "Never appears as a Barbarian unit", "Unbuildable"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Gardiens de la Forêt",
+		"unitType": "Monstres",
+		"movement": 2,
+		"strength": 30,
+		"cost": 42500000000000000000,
+		"requiredTech": "Feu Secret",
+		"uniques": ["[+100]% Strength <in [Forest] tiles>", "Never appears as a Barbarian unit", "Unbuildable"],
+		"promotions": ["Woodsman"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Dragon",
+		"unitType": "Monstres",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 2,
+		"requiredTech": "Feu Secret",
+		"uniques": ["[100]% chance to intercept air attacks",
+			"Can carry [3] [Missile] units", "[+50]% Strength <vs [Lands] units>", "[+50]% Strength <vs cities>", "Never appears as a Barbarian unit", "Unbuildable"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Géant des Mers",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 3,
+		"interceptRange": 2,
+		"requiredTech": "Feu Secret",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit", "Unbuildable"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Monstres Marins",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"requiredTech": "Feu Secret",
+		"uniques": ["Unbuildable", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Wargs de Sauron",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 30,
+		"requiredTech": "Feu Secret",
+		"uniques": ["Unbuildable", "Can move after attacking", "[+100]% Strength <vs [Siege] units>", "[+100]% Strength <vs [Archery] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Blitz"],
+		"attackSound": "Archer"
+	},
+	{
 		"name": "Silmaril d'Eärendil",
 		"unitType": "Civilian",
 		"movement": 2,
