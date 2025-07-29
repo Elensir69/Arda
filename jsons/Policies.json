@@ -12,7 +12,6 @@
         "uniques": [
             "Only available <after adopting [Lumière de Melian]>",
             "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
         ],
         "policies": [
             {
@@ -83,62 +82,57 @@
         },
         "uniques": [
             "Only available <after adopting [Culture Sinda]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Culture] in every [Forest] [in all cities]",
         ],
         "policies": [
             {
-                "name": "1",
+                "name": "Sindarin",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+2 Culture] [in your cities] <in cities with a major religion>"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "2",
+                "name": "Grand Conseil des Elfes Gris",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "When declaring friendship, both parties gain a [+10]% boost to great person generation",
+                    "Discover [Contact avec Valinor]",
                     "Empire enters golden age"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "3",
+                "name": "Maîtres des Bois",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+30]% to Flank Attack bonuses <in [Forest] tiles>",
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "4",
+                "name": "Chants des Ruines",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+1 Science] [in all cities]"
                 ],
-                "requires": ["2"],
+                "requires": ["Sindarin"],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
-                "name": "5",
+                "name": "Gardes Gris",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1] Sight <in [Forest] tiles>"
                 ],
-                "requires": ["3"],
+                "requires": ["Maîtres des Bois"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Culture Sinda Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "[[-25]% enemy spy effectiveness [in your cities]]",
                 ]
             }
         ]
