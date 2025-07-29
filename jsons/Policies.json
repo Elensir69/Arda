@@ -54,7 +54,7 @@
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "Merveilles de Menegroth",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
@@ -88,7 +88,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "1",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -97,7 +97,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "2",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -106,7 +106,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "3",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -116,26 +116,26 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "4",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["2"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "5",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["3"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Lumière de Melian Complete",
+                "name": "Culture Sinda Complete",
                 "uniques": [
                     "[+15]% Culture [in all cities]",
                     "[+100]% Yield from every [Great Improvement]"
@@ -160,7 +160,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "6",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -169,7 +169,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "7",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -178,7 +178,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "8",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -188,21 +188,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "9",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["6"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "10",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["7"],
                 "row": 2,
                 "column": 4
             },
@@ -232,7 +232,7 @@
         ],
         "policies": [
             {
-                "name": "Cité Secrète",
+                "name": "oezekd",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -241,7 +241,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "11",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -250,7 +250,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "12",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -260,21 +260,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "13",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["oezekd"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "14",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["oezekd"],
                 "row": 2,
                 "column": 4
             },
@@ -304,7 +304,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "15",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -313,7 +313,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "16",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -322,7 +322,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "17",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -332,12 +332,12 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "18",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["17"],
                 "row": 2,
                 "column": 2
             },
@@ -346,7 +346,7 @@
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["17"],
                 "row": 2,
                 "column": 4
             },
@@ -376,7 +376,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "19",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -385,7 +385,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "20",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -394,7 +394,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "21",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -404,21 +404,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "22",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["20"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "23",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["20"],
                 "row": 2,
                 "column": 4
             },
@@ -448,7 +448,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "77",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -457,7 +457,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "78",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -466,7 +466,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "79",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -476,21 +476,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "73",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["79"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "74",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["73"],
                 "row": 2,
                 "column": 4
             },
@@ -520,7 +520,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "32",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -529,7 +529,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "33",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -538,7 +538,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "34",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -548,21 +548,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "35",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["34"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "36",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["34"],
                 "row": 2,
                 "column": 4
             },
@@ -592,7 +592,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "41",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -601,7 +601,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "L42",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -610,7 +610,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "43",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -620,21 +620,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "44",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["43"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "45",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["43"],
                 "row": 2,
                 "column": 4
             },
@@ -664,7 +664,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "61",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -673,7 +673,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "62",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -682,7 +682,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "63",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -692,21 +692,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "64",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["61"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "65",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["64"],
                 "row": 2,
                 "column": 4
             },
@@ -736,7 +736,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "N1",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -745,7 +745,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "N2",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -754,7 +754,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "N3",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -764,21 +764,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "N4",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["N3"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "N5",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["N3"],
                 "row": 2,
                 "column": 4
             },
@@ -808,7 +808,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "B1",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -817,7 +817,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "B2",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -826,7 +826,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "B3",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -836,21 +836,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "B4",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["B1"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "B5",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["B3"],
                 "row": 2,
                 "column": 4
             },
@@ -880,7 +880,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "V1",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -889,7 +889,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "V2",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -898,7 +898,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "V3",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -908,21 +908,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "V4",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["V2"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "V5",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["V1"],
                 "row": 2,
                 "column": 4
             },
@@ -952,7 +952,7 @@
         ],
         "policies": [
             {
-                "name": "Peuple sous les étoiles",
+                "name": "C1",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -961,7 +961,7 @@
                 "column": 1
             },
             {
-                "name": "Loi de Thingol",
+                "name": "C2",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -970,7 +970,7 @@
                 "column": 3
             },
             {
-                "name": "Défense des Frontières",
+                "name": "C3",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -980,21 +980,21 @@
                 "column": 5
             },
             {
-                "name": "Autarcie",
+                "name": "C4",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["C1"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Silmaril",
+                "name": "C5",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["Loi de Thingol"],
+                "requires": ["C2"],
                 "row": 2,
                 "column": 4
             },
