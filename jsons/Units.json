@@ -497,4 +497,31 @@
 		],
 		"movement": 3
 	},
+	{
+		"name": "Silmaril d'Eärendil",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Silmaril d'Eärendil",
+		"requiredResource": "Pierre de Magie",
+		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
+	},
+	{
+		"name": "Silmaril des Mers",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Silmaril des Mers",
+		"requiredResource": "Pierre de Magie",
+		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
+	},
+	{
+		"name": "Silmaril des Profondeurs de la Terre",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Silmaril des Profondeurs de la Terre",
+		"requiredResource": "Pierre de Magie",
+		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
+	}
 ]
