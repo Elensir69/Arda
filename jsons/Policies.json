@@ -229,7 +229,7 @@
             {
                 "name": "Voies Cachées",
                 "uniques": [
-                    "[+ 1 Sight] <for [scout] units>"
+                    "[+ 1] Sight <for [scout] units>"
                 ],
                 "row": 1,
                 "column": 3
@@ -256,7 +256,7 @@
             {
                 "name": "Chute Retardée",
                 "uniques": [
-                    "[[-10]% Strength for enemy [all] units in adjacent [your] tiles]",
+                    "[-10]% Strength for enemy [all] units in adjacent [your] tiles",
                 ],
                 "requires": ["Voies Cachées"],
                 "row": 2,
@@ -288,15 +288,15 @@
             {
                 "name": "Tradition Valinorienne",
                 "uniques": [
-                    "[+15]% Production when constructing [Library] [in all cities]",
+                    "[+15]% [Production] <when constructing [Library]> [in all cities]",
                 ],
-                "row": 2,
+                "row": 1,
                 "column": 1
             },
             {
                 "name": "Savoir Retrouvé",
                 "uniques": [
-                    "[+15]% Science [in all cities] <when at war>"
+                    "[+15]% [Science] [in all cities] <when at war>"
                 ],
                 "row": 1,
                 "column": 4
@@ -307,7 +307,7 @@
                     "[+1 Faith] [in all non-coastal cities]"
                 ],
                 "requires": ["Tradition Valinorienne"],
-                "row": 1,
+                "row": 2,
                 "column": 1
             },
             {
@@ -332,7 +332,7 @@
             {
                 "name": "Culture Noldo Complete",
                 "uniques": [
-                    "[+15]% Science [in all cities]",
+                    "[+15]% [Science] [in all cities]",
                 ]
             }
         ]
@@ -349,62 +349,57 @@
         },
         "uniques": [
             "Only available <after adopting [Amis d'Ulmo]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Production] [in all coastal cities]",
+            "[+1 Food] [in all coastal cities]",
         ],
         "policies": [
             {
-                "name": "19",
+                "name": "Bénédiction Marine",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Faith] [in all non-coastal cities]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "20",
+                "name": "Ports Sacrés",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+25]% [Production] from every [Harbor] "
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "21",
+                "name": "Gardiens des Rivages",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+10]% Strength <when [Water] units>",
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "22",
+                "name": "Voix d'Ulmo",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+10]% growth [in all coastal cities]"
                 ],
-                "requires": ["20"],
+                "requires": ["Bénédiction Marine"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "23",
+                "name": "Marins Inspirés",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1] Movement <for [Water] units>",
+                    "[+1] Sight <for [Water] units>"
                 ],
-                "requires": ["20"],
+                "requires": ["Gardiens des Rivages"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Amis d'Ulmo Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "May buy [Géant des Mers] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
             }
         ]
