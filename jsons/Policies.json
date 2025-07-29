@@ -37,7 +37,6 @@
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 5
@@ -64,7 +63,7 @@
             {
                 "name": "Lumière de Melian Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
+                    "[+15]% [Culture] [in all cities]",
                     "[+100]% Yield from every [Great Improvement]"
                 ]
             }
@@ -288,7 +287,7 @@
             {
                 "name": "Tradition Valinorienne",
                 "uniques": [
-                    "[+15]% [Production] <when constructing [Library]> [in all cities]",
+                    "[+15]% [Production] <when building [Library]> [in all cities]",
                 ],
                 "row": 1,
                 "column": 1
@@ -372,7 +371,7 @@
             {
                 "name": "Gardiens des Rivages",
                 "uniques": [
-                    "[+10]% Strength <when [Water] units>",
+                    "[+10]% Strength <for [Water] units>",
                 ],
                 "row": 1,
                 "column": 5
