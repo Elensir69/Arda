@@ -282,62 +282,57 @@
         },
         "uniques": [
             "Only available <after adopting [Culture Noldo]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Science] from every specialist [in this city]",
         ],
         "policies": [
             {
-                "name": "15",
+                "name": "Tradition Valinorienne",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+15]% Production when constructing [Library] [in all cities]",
                 ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Savoir Retrouvé",
+                "uniques": [
+                    "[+15]% Science [in all cities] <when at war>"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Exil Lumineux",
+                "uniques": [
+                    "[+1 Faith] [in all non-coastal cities]"
+                ],
+                "requires": ["Tradition Valinorienne"],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "16",
+                "name": "Chants de Feanor",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+1 Culture] [in all cities]"
                 ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "17",
-                "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
-                ],
-                "row": 1,
+                "requires": ["Savoir Retrouvé"],
+                "row": 2,
                 "column": 5
             },
             {
-                "name": "18",
+                "name": "Orgeuil et Serment",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "When declaring friendship, both parties gain a [-15]% boost to great person generation",
+                    "May buy [Cavalier du Serment] units for [200] [Gold] [in your cities] at an increasing price ([5])"
                 ],
-                "requires": ["17"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Silmaril",
-                "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
-                ],
-                "requires": ["17"],
-                "row": 2,
-                "column": 4
+                "requires": ["Exil Lumineux", "Savoir Retrouvé"],
+                "row": 3,
+                "column": 3
             },
             {
                 "name": "Culture Noldo Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "[+15]% Science [in all cities]",
                 ]
             }
         ]
