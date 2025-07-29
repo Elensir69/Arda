@@ -333,7 +333,7 @@
 		"uniqueName": "Land of songs",
 		"uniques": ["[+2 Culture] from [Forest] tiles [in your cities]",
 		"[+1 Happiness] from [River] tiles <when at war>",
-		"[50]% of excess happiness converted to [Culture]",
+		"[20]% of excess happiness converted to [Culture]",
 		"[+50]% Strength <in [River] tiles>",
 		"[Ranged] units gain the [Invisible to others] promotion",
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
