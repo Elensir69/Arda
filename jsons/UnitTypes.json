@@ -55,7 +55,7 @@
     {
         "name": "Monstres",
         "movementType": "Land",
-        "uniques": ["[+4] Sight", "Can see over obstacles", "[-15]% Strength bonus for [all] units within [2] tiles"]
+        "uniques": ["[+4] Sight", "Can see over obstacles", "[-15]% Strength bonus for [all] units within [2] tiles", "Destroys tile improvements when attacking"]
     },
     {
         "name": "Fighter",
