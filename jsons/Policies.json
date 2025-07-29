@@ -229,7 +229,7 @@
             {
                 "name": "Voies Cachées",
                 "uniques": [
-                    "[+ 1] Sight <for [scout] units>"
+                    "[+1] Sight <for [scout] units>"
                 ],
                 "row": 1,
                 "column": 3
