@@ -97,8 +97,7 @@
                 "name": "Grand Conseil des Elfes Gris",
                 "uniques": [
                     "When declaring friendship, both parties gain a [+10]% boost to great person generation",
-                    "Discover [Contact avec Valinor]",
-                    "Empire enters golden age"
+                    "May buy [Archers Gris] units for [200] [Gold] [in your cities] at an increasing price ([5])"
                 ],
                 "row": 1,
                 "column": 3
@@ -149,62 +148,56 @@
         },
         "uniques": [
             "Only available <after adopting [Peuple des Étoiles]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Faith] per [2] population [in all cities]",
         ],
         "policies": [
             {
-                "name": "6",
+                "name": "Première Lueur",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness] per [5] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "7",
+                "name": "Mémoire Ancestrale",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+2 Culture] from all [Wonder] buildings"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "8",
+                "name": "Nuit d'Éveil",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+10]% growth [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "9",
+                "name": "Étoiles Perdues",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+2 Gold] per [1] social policies adopted"
                 ],
-                "requires": ["6"],
+                "requires": ["Première Lueur"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "10",
+                "name": "Lueur contre l'Ombre",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+30]% Strength <vs [Monstres] units>""
                 ],
-                "requires": ["7"],
+                "requires": ["Nuit d'Éveil", "Mémoire Ancestrale"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Peuple des Étoiles Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "Discover [Contact avec Valinor]",
+                    "Empire enters golden age"
                 ]
             }
         ]
