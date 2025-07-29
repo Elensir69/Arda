@@ -52,7 +52,11 @@
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
-
+    {
+        "name": "Monstres",
+        "movementType": ["Land", "Warter"],
+        "uniques": ["[+4] Sight", "Can see over obstacles", "[-15]% Strength bonus for [all] units within [2] tiles"]
+    },
     {
         "name": "Fighter",
         "movementType": "Air",
