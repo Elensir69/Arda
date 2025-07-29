@@ -36,6 +36,9 @@
 		"[+20]% Strength <in [your] tiles>",
 		"[-30]% Strength <in [Enemy Land] tiles>",
 		"[+100]% [Silver] resource production",
+		"Starts with [Lumière de Melian] adopted",
+		"Starts with [Culture Sinda] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
 			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Elnad","Izien","Ell"]
@@ -78,7 +81,10 @@
 		"[+100]% unhappiness from the number of cities",
 		"[-100]% Unhappiness from [Population] [in Capital]",
 		"[+100]% City Strength from defensive buildings",
-		"Land units may cross [Mountain] tiles after the first [Great General] is earned"
+		"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+		"Starts with [Cité Secrète] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Gondolin","Echoriath", "Tumladin", "Eithel Arnan", "Lanthiriel"]
 	},
@@ -118,6 +124,9 @@
 		"[+2 Gold] from every [hills]",
 		"[+20]% [Production] [in capital]",
 		"[Land] units gain the [Invisible to non-adjacent units] promotion",
+		"Starts with [Cité Secrète] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Nargothrond","Garthurian", "Tawarond", "Barad Lómin", "Culúlindon"]
 	},
@@ -157,6 +166,9 @@
 		"[+1 Culture] from [Water] tiles [in all cities]",
 		"Gain a free [Harbor] [in all coastal cities]",
 		"[+1 Happiness] from [Water] tiles [in all cities]",
+		"Starts with [Amis d'Ulmo] adopted",
+		"Starts with [Culture Sinda] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Eglarest","Brithombar"]
 	},
@@ -197,11 +209,14 @@
 		"[+10]% [Culture] [in your cities] <upon declaring friendship>",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[-50]% maintenance costs <for [Mounted] units>",
-		"[+100]% [Horses] resource production",
+		"[+100]% [Horses] resource production",		
+		"Starts with [Haut-Roi des Noldor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Barad Eithel","Eithel Sirion", "Mithrim"]
 	},
-			{
+		{
 		"name": "Himring",
 		"leaderName": "Maedhros",
 		"adjective": ["Noldor"],
@@ -236,7 +251,10 @@
 		"Great General provides double combat bonus",
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[+1 Production] from every [Strategic resource]",
-		"[+100]% [Iron] resource production",
+		"[+100]% [Iron] resource production",		
+		"Starts with [Serment de Feanor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Himring", "Eastern March"]
 	},
@@ -276,6 +294,9 @@
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[+20]% [Gold] [in your cities] <upon declaring friendship>",
 		"[+100]% [Iron] resource production",
+		"Starts with [Serment de Feanor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Helevorn","Mount Rerir"]
 	},
@@ -316,6 +337,9 @@
 		"[+50]% Strength <in [River] tiles>",
 		"[Ranged] units gain the [Invisible to others] promotion",
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+		"Starts with [Fidèle d'Oromë] adopted",
+		"Starts with [Culture Sinda] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Dor Firn-i-Guinar", "Ost-in-Ossiriand","San Athrad", "Tol Galen","Thalos","Legolin","Brilthor","Duilwen","Adurant"]
 	},
@@ -356,6 +380,9 @@
 		"[+2 Culture] from every [Pasture] improvements [in your cities]",
 		"[+100]% [Horses] resource production",
 		"[+30]% Strength <for [Mounted] units>",
+		"Starts with [Serment de Feanor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Maglor's Gap", "Lothlann"]
 	},
@@ -395,6 +422,9 @@
 		"[+30]% Strength <within [2] tiles of a [Mountain]> <for [Military] units>",
 		"[+4 Culture] from every [Mountain] tiles [in your cities]",
 		"[+1 Production] from every [improved] <in tiles adjacent to [Mountains] tiles>",
+		"Starts with [Serment de Feanor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Himlad", "Celon Pass", "Ford of Aros"]
 	},
@@ -435,6 +465,9 @@
 		"[+1] Sight <for [Ranged] units>",
 		"[+2 Production] from every [Camp] improvements [in your cities]",
 		"[+2 Food] from every [Camp] improvements [in your cities]",
+		"Starts with [Serment de Feanor] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Amon Ereb", "Estolad Plains", "South Hills"]
 	},
@@ -474,7 +507,10 @@
 		"[+1] Sight <for [Land] units>",
 		"[Land] units gain the [Shock III] promotion",
 		"[+1 Production] from every [Plains] tiles [in your cities]",
-		"[+1 Production] from every [Grassland] tiles [in your cities]"
+		"[+1 Production] from every [Grassland] tiles [in your cities]",
+		"Starts with [Seigneurs du Sud] adopted",
+		"Starts with [Culture Noldo] adopted",
+		"Starts with [Peuple des Étoiles] adopted",
 		],
 		"cities": ["Aglon", "Dorthonion", "High Marches"]
 	},
@@ -516,6 +552,9 @@
 		"[+100]% [Iron] resource production",
 		"[+100]% [Gold Ore] resource production",
 		"[+100]% [Gems] resource production",
+		"Starts with [Grands Forgerons] adopted",
+		"Starts with [Culture Naine] adopted",
+		"Starts with [Khazad] adopted",
 		],
 		"cities": ["Tumunzahar", "Mines Sud", "Contreforts du Mont Dolmed"]
 	},
@@ -558,6 +597,9 @@
 		"[+10]% Production when constructing wonders",
 		"[+20]% Strength <against [Monstres] units>",
 		"[+20]% [Gold] [in your cities] <upon declaring friendship>",
+		"Starts with [Grands Architectes] adopted",
+		"Starts with [Culture Naine] adopted",
+		"Starts with [Khazad] adopted",
 		],
 		"cities": ["Gabilgathol", "Col des Ered Luin", "Mines de Rerir"]
 	},
