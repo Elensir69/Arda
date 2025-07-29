@@ -1,117 +1,119 @@
 
 [
     {
-        "name": "Ancestor Worship",
+        "name": "Voix de Manwë",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
+        "uniques": ["[+1 Culture] from every [Hills]", "May buy [Aigles de Manwë] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Dance of the Aurora",
+        "name": "Ruisseaux d'Ulmo",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": ["[+1 Faith] from [River] tiles [in this city]", "[+50]% Strength <in [River] tiles>"]
     },
     {
-        "name": "Desert Folklore",
+        "name": "Forges d'Aulë",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": ["[+1 Production] from every [Mines]", "[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
     },
     {
-        "name": "Faith Healers",
+        "name": "Chasseurs d'Oromë",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
+        "uniques": ["[+1 Food] from every [Camp]", "May buy [Chasseurs d'Oromë] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Fertility Rites",
+        "name": "Rites de Mandos",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+        "uniques": ["[+4 Faith] from every [Natural Wonder]", "May buy [Juges] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "God of Craftsman",
+        "name": "Repos de Lórien",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
+        "uniques": ["[+10]% growth [in this city]", "May buy [Soigneurs] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "God of the Open Sky",
+        "name": "Courage de Tulkas",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion", "May buy [Guerries de Tulkas] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "God of the Sea",
+        "name": "Lumière de Varda",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": ["[+2 Culture] from every [Wonders]", "[+2 Faith] from every [Wonders]"]
     },
     {
-        "name": "God of War",
+        "name": "Enseignements de Yavanna",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": ["[+1 Food] from every [Forest]", "May buy [Gardiens de la Forêt] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Goddess of Festivals",
+        "name": "Compassion de Nienna",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+        "uniques": ["[+4 Happiness] from every [Garden]", "May buy [Soigneurs] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Goddess of Love",
+        "name": "Soin d'Estë",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"]
+        "uniques": ["[All] Units [in this city] heal [+30] HP per turn when healing", "May buy [Soigneurs] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Goddess of Protection",
+        "name": "Leçons de Vairë",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>"]
+        "uniques": ["[+15]% Production when constructing [Wonders] [in cities following this religion"]
     },
     {
-        "name": "Goddess of the Hunt",
+        "name": "Amour de Vána",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
+        "uniques": ["[+2 Culture] from every [Pasture]"]
     },
     {
-        "name": "Messenger of the Gods",
+        "name": "Desseins de Nessa",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
+        "uniques": ["[+2 Culture, +2 Faith] from every [Wine]", "[+2 Culture, +2 Faith] from every [Incense]"]
     },
     {
-        "name": "Monument to the Gods",
+        "name": "SOmbreurs de Melkor",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-            "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
+        "uniques": ["[+100]% [Pierres de Magie] resource production ", "May buy [Dragons] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "One with Nature",
+        "name": "Beauté de Melian",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+4 Culture, +1 Faith] [in this city]"]
     },
     {
-        "name": "Oral Tradition",
+        "name": "Noble Tilion",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": ["May buy [Receuil de la Lune] buildings with [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Religious Idols",
+        "name": "Flamboyante Arien",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+        "uniques": ["May buy [Temple du Soleil] buildings with [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Religious Settlements",
+        "name": "Amitié d'Uinen",
         "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+        "uniques": ["[+2 Happiness] [in coastal cities]"]
     },
     {
-        "name": "Sacred Path",
+        "name": "Tempêtes d'Ossë",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]"]
+        "uniques": ["May buy [Géants des Mers] units for [200] [Faith] [in this city]", "May buy [Monstres Marins] units for [200] [Faith] [in this city]"]
     },
     {
-        "name": "Sacred Waters",
+        "name": "Étoiles d'Ilmarë",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+        "uniques": ["[-25]% Culture cost of natural border growth [in cities following this religion]"]
     },
     {
-        "name": "Stone Circles",
+        "name": "Messages d'Eönwë",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": ["[+4 Science] from each Trade Route"]
+    },
+    {
+        "name": "Ruses de Sauron",
+        "type": "Pantheon",
+        "uniques": ["[+200]% Yield from pillaging tiles", "[+60]% Health from pillaging tiles", "May buy [Wargs de Sauron] units for [200] [Faith] [in this city]"]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
