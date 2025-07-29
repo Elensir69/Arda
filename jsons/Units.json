@@ -503,7 +503,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "Silmaril d'Eärendil",
-		"requiredResource": "Pierre de Magie",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
 	},
 	{
@@ -512,7 +512,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "Silmaril des Mers",
-		"requiredResource": "Pierre de Magie",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
 	},
 	{
@@ -521,7 +521,7 @@
 		"movement": 2,
 		"cost": 1500,
 		"requiredTech": "Silmaril des Profondeurs de la Terre",
-		"requiredResource": "Pierre de Magie",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["Cannot be purchased", "Capturable", "Limited to [1]"]
 	}
 ]
