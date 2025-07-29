@@ -121,8 +121,8 @@
 			{
 				"name": "Commerce",
 				"row": 10,
-				"prerequisites": ["Domptage", "Enables Open Borders agreements"],
-               			"uniques": ["Roads connect tiles across rivers", "[+100]% weight to this choice for AI decisions"],
+				"prerequisites": ["Domptage"],
+               			"uniques": ["Roads connect tiles across rivers", "Enables Open Borders agreements", "[+100]% weight to this choice for AI decisions"],
 				"quote": "?"
 			}
 		]
