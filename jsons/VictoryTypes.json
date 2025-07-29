@@ -1,11 +1,11 @@
 [
-    {
-        "name": "Silmarillion",
-        "victoryScreenHeader": "Emparez vous de tous les Silmarils\nto win!",
-        "milestones": ["Gain control over [Silmaril d'Eärendil]", "Gain control over [Silmaril des Mers]", "Gain control over [Silmaril des Profondeurs de la Terre]"],
-        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
+//    {
+//        "name": "Silmarillion",
+//        "victoryScreenHeader": "Emparez vous de tous les Silmarils\nto win!",
+//        "milestones": ["Gain control over [Silmaril d'Eärendil]", "Gain control over [Silmaril des Mers]", "Gain control over [Silmaril des Profondeurs de la Terre]"],
+//        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+//        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+//    },
     {
         "name": "Cultural",
         "victoryScreenHeader": "Complete 7 policy branches",
