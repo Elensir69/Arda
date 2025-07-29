@@ -54,7 +54,7 @@
     },
     {
         "name": "Monstres",
-        "movementType": ["Land", "Warter"],
+        "movementType": ["Land", "Water"],
         "uniques": ["[+4] Sight", "Can see over obstacles", "[-15]% Strength bonus for [all] units within [2] tiles"]
     },
     {
