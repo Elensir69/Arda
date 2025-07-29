@@ -17,12 +17,22 @@
 		"name": "Archers Gris",
 		"unitType": "Ranged",
 		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 8,
-		"range": 3,
-		"cost": 56,
+		"strength": 32,
+		"rangedStrength": 33,
+		"range": 2,
 		"requiredTech": "Archery",
 		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "May enter foreign tiles without open borders", "Limited to [5] per Civilization", "[+1] Sight"],
+		"attackSound": "Archer"
+	},
+		},
+		{
+		"name": "Cavalier du Serment",
+		"unitType": "Mounted",
+		"replaces": "Cataphract",
+		"movement": 3,
+		"strength": 25,
+		"requiredTech": "Domptage",
+		"uniques": ["[+100]% Strength <vs [Land] units>", "Never appears as a Barbarian unit", "Unbuildable", "Can move after attacking", "Limited to [5] per Civilization"],
 		"attackSound": "Archer"
 	},
 	{
