@@ -22,7 +22,7 @@
 		"range": 3,
 		"cost": 56,
 		"requiredTech": "Archery",
-		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "May enter foreign tiles without open borders", "Limited to [5] per Civilization", [+1] Sight],
+		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "May enter foreign tiles without open borders", "Limited to [5] per Civilization", "[+1] Sight"],
 		"attackSound": "Archer"
 	},
 	{
