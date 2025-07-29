@@ -16,7 +16,7 @@
 		"happiness": 10,
 		"culture": 10,
 		"science": 5,
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "[+2 Food, +2 Production] from [Forest] tiles [in this city]",
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "[+1 Food, +1 Production] from [Forest] tiles [in this city]",
 			"Gain a free [Walls] [in this city]"],
 		"maintenance": 2,
 		"isNationalWonder": true,
@@ -31,7 +31,7 @@
 		"hurryCostModifier": 25,
 		"Maintenance": 2,
 		"happiness": 4,
-		"uniques": ["40% of food is carried over after a new citizen is born", "[+2 Food, +2 Production] from [Forest] tiles [in this city]","[+30]% Great Person generation [in this city]"],
+		"uniques": ["40% of food is carried over after a new citizen is born", "[+1 Food, +1 Production] from [Forest] tiles [in this city]","[+30]% Great Person generation [in this city]"],
 		"requiredTech": "Architecture"
 	},
 	{
