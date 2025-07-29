@@ -35,7 +35,7 @@
 		"[20]% of excess happiness converted to [Science]",
 		"[+20]% Strength <in [your] tiles>",
 		"[-30]% Strength <in [Enemy Land] tiles>",
-		"[+1] Silver [in your cities]",
+		"[+100]% [Silver] resource production",
 		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
 			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Elnad","Izien","Ell"]
@@ -513,7 +513,7 @@
 		"Land units may cross [Mountain] tiles",
 		"[+4 Gold] from each Trade Route",
 		"[+100]% [Iron] resource production",
-		"[+1] Gold Ore [in your cities]",
+		"[+100]% [Gold Ore] resource production",
 		"[+100]% [Gems] resource production",
 		],
 		"cities": ["Tumunzahar", "Mines Sud", "Contreforts du Mont Dolmed"]
@@ -551,7 +551,7 @@
 		"uniqueName": "Gabilgathol",
 		"uniques": ["[+7 Production] from every [Mountain]",
 		"[-4 Production] from every [Forest]",
-		"Land units may cross [Mountain] tiles",
+		"Land units may cross [Mountain] tiles after the first [Great General] is earned",
 		"[+4 Gold] from each Trade Route",
 		"[+100]% [Iron] resource production",
 		"[+10]% Production when constructing wonders",
