@@ -27,7 +27,6 @@
 		{
 		"name": "Cavalier du Serment",
 		"unitType": "Mounted",
-		"replaces": "Cataphract",
 		"movement": 3,
 		"strength": 25,
 		"requiredTech": "Domptage",
