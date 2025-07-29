@@ -13,6 +13,18 @@
 		"promotions": ["Barrage III","Woodsman"],
 		"attackSound": "Archer"
 	},
+		{
+		"name": "Archers Gris",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 8,
+		"range": 3,
+		"cost": 56,
+		"requiredTech": "Archery",
+		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "May enter foreign tiles without open borders", "Limited to [5] per Civilization", [+1] Sight],
+		"attackSound": "Archer"
+	},
 	{
 		"name": "Garde de Menegroth",
 		"unitType": "Ranged",
@@ -507,7 +519,7 @@
 		"interceptRange": 10,
 		"requiredTech": "Feu Secret",
 		"requiredResource": "Pierres de Magie",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Unbuildable"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Siege] units>", "Unbuildable"],
 		"attackSound": "Archer"
 	},
 	{
@@ -556,6 +568,7 @@
 		"movement": 2,
 		"strength": 30,
 		"requiredTech": "Feu Secret",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["[+100]% Strength <in [Forest] tiles>", "Never appears as a Barbarian unit", "Unbuildable"],
 		"promotions": ["Woodsman"],
 		"attackSound": "Archer"
@@ -567,6 +580,7 @@
 		"strength": 50,
 		"interceptRange": 2,
 		"requiredTech": "Feu Secret",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["[100]% chance to intercept air attacks",
 			"Can carry [3] [Missile] units", "[+50]% Strength <vs [Lands] units>", "[+50]% Strength <vs cities>", "Never appears as a Barbarian unit", "Unbuildable"],
 		"attackSound": "Archer"
@@ -593,6 +607,7 @@
 		"range": 3,
 		"rangedStrength": 85,
 		"requiredTech": "Feu Secret",
+		"requiredResource": "Pierres de Magie",
 		"uniques": ["Unbuildable", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
 		"attackSound": "Archer"
 	},
