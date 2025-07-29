@@ -555,7 +555,6 @@
 		"unitType": "Monstres",
 		"movement": 2,
 		"strength": 30,
-		"cost": 42500000000000000000,
 		"requiredTech": "Feu Secret",
 		"uniques": ["[+100]% Strength <in [Forest] tiles>", "Never appears as a Barbarian unit", "Unbuildable"],
 		"promotions": ["Woodsman"],
