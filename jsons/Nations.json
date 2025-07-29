@@ -32,9 +32,10 @@
 		"uniqueName": "The Peace of Thingol",
 		"uniques": ["[+2 Culture] from [Forest] tiles [in your cities]",
 		"[+1 Happiness] from [River] tiles <when at war>",
-		"[30]% of excess happiness converted to [Science]",
+		"[20]% of excess happiness converted to [Science]",
 		"[+20]% Strength <in [your] tiles>",
 		"[-30]% Strength <in [Enemy Land] tiles>",
+		"[+1] Silver [in your cities]",
 		],
 		"cities": ["Menegroth","Minas Neldoreth","Ost-in-Region","Thand Esgladuin","Caras Eglador","Ost-in-Dimbar","Iant Aur","Aros","Aelin-Uial",
 			"Brethil","Arrosiach","Seco","Amon Rûdh","Cabed-en-Aras","Dor Dînen","Nan-Tathren","Heaven of Melian","Amon Ereb","Elnad","Izien","Ell"]
@@ -475,5 +476,88 @@
 		"[+1 Production] from every [Grassland] tiles [in your cities]"
 		],
 		"cities": ["Aglon", "Dorthonion", "High Marches"]
+	},
+		{
+		"name": "Nogrod",
+		"leaderName": "Telchar",
+		"adjective": ["Naugrim"],
+		"startBias": ["Mountains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [223,109,20],
+		"innerColor": [186,186,186],
+		"uniqueName": "Tumunzahar",
+		"uniques": ["[+7 Production] from every [Mountain]",
+		"[-4 Production] from every [Forest]",
+		"Land units may cross [Mountain] tiles",
+		"[+4 Gold] from each Trade Route",
+		"[+100]% [Iron] resource production",
+		"[+1] Gold Ore [in your cities]",
+		"[+100]% [Gems] resource production",
+		],
+		"cities": ["Tumunzahar", "Mines Sud", "Contreforts du Mont Dolmed"]
+	},
+	{
+		"name": "Belegost",
+		"leaderName": "Azaghâl",
+		"adjective": ["Naugrim"],
+		"startBias": ["Mountains"],
+		"preferredVictoryType": "Time",
+		
+		"startIntroPart1": "Welcome in the most magnificient country of the world",
+		"startIntroPart2": "Mae l'ovannen!!",
+		
+		"declaringWar": "Sevig thû úan !",
+		"attacked": "Ego, *mibo orch !",
+		"defeated": "Goheno nin",
+		"introduction": "Êl síla erin lû e-govaned vîn!",
+		
+		"neutralHello": "Mae l'ovannen!",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [1,49,180],
+		"innerColor": [186,186,186],
+		"uniqueName": "Gabilgathol",
+		"uniques": ["[+7 Production] from every [Mountain]",
+		"[-4 Production] from every [Forest]",
+		"Land units may cross [Mountain] tiles",
+		"[+4 Gold] from each Trade Route",
+		"[+100]% [Iron] resource production",
+		"[+10]% Production when constructing wonders",
+		"[+20]% Strength <against [Monstres] units>",
+		"[+20]% [Gold] [in your cities] <upon declaring friendship>",
+		],
+		"cities": ["Gabilgathol", "Col des Ered Luin", "Mines de Rerir"]
 	},
 ]
