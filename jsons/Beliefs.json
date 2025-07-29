@@ -23,7 +23,7 @@
     {
         "name": "Rites de Mandos",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]", "May buy [Juges] units for [200] [Faith] [in this city]"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]", "May buy [Juge] units for [200] [Faith] [in this city]"]
     },
     {
         "name": "Repos de Lórien",
@@ -33,7 +33,7 @@
     {
         "name": "Courage de Tulkas",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion", "May buy [Guerries de Tulkas] units for [200] [Faith] [in this city]"]
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion", "May buy [Guerriers de Tulkas] units for [200] [Faith] [in this city]"]
     },
     {
         "name": "Lumière de Varda",
@@ -73,7 +73,7 @@
     {
         "name": "SOmbreurs de Melkor",
         "type": "Pantheon",
-        "uniques": ["[+100]% [Pierres de Magie] resource production ", "May buy [Dragons] units for [200] [Faith] [in this city]"]
+        "uniques": ["[+100]% [Pierres de Magie] resource production ", "May buy [Dragon] units for [200] [Faith] [in this city]"]
     },
     {
         "name": "Beauté de Melian",
@@ -98,7 +98,7 @@
     {
         "name": "Tempêtes d'Ossë",
         "type": "Pantheon",
-        "uniques": ["May buy [Géants des Mers] units for [200] [Faith] [in this city]", "May buy [Monstres Marins] units for [200] [Faith] [in this city]"]
+        "uniques": ["May buy [Géant des Mers] units for [200] [Faith] [in this city]", "May buy [Monstres Marins] units for [200] [Faith] [in this city]"]
     },
     {
         "name": "Étoiles d'Ilmarë",
