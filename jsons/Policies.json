@@ -611,62 +611,55 @@
         },
         "uniques": [
             "Only available <after adopting [Fidèle d'Oromë]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Faith] in [all] forest in [all cities]",
         ],
         "policies": [
             {
-                "name": "41",
+                "name": "Chasseurs Sylvestres",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+15]% Strenght <for [Land] units> in [Forest] tiles",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "L42",
+                "name": "Six-Rivières",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+1 Production] in cities on [River] tiles"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "43",
+                "name": "Musique de la Nature",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Culture] on [Forest] tiles"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "44",
+                "name": "Dons des Valar",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+3 Faith] per [5] turns"
                 ],
-                "requires": ["43"],
+                "requires": ["Six-Rivières"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "45",
+                "name": "Frères Perdus",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1] Sight <for [all] units>"
                 ],
-                "requires": ["43"],
+                "requires": ["Six-Rivières"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Fidèle d'Oromë Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "Invisible to others <for [Military] unit> <when in [Forest] tiles>"
                 ]
             }
         ]
