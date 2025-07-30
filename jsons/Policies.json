@@ -435,9 +435,9 @@
                 "column": 3
             },
             {
-                "name": "Noblesse Guèrrière",
+                "name": "Noblesse Guerrière",
                 "uniques": [
-                    "[+30 faith] <upon being promoted> <for [Land] units>"
+                    "[+30 Faith] <upon being promoted> <for [Land] units>"
                 ],
                 "row": 1,
                 "column": 5
@@ -456,7 +456,7 @@
                 "uniques": [
                     "[+10]% Production when constructing [Military] units [in your cities] <when at war>"
                 ],
-                "requires": ["Noblesse guerrière"],
+                "requires": ["Noblesse Guerrière"],
                 "row": 2,
                 "column": 5
             },
@@ -512,7 +512,7 @@
                 "uniques": [
                     "[+50]% Production towards any buildings that already exist in the Capital"
                 ],
-                "requires": ["Bannière du Nord"],
+                "requires": ["Espoir des étoiles", "Union des Noldor"],
                 "row": 2,
                 "column": 1
             },
@@ -521,12 +521,12 @@
                 "uniques": [
                     "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turn"
                 ],
-                "requires": ["Noblesse guerrière"],
+                "requires": ["Couronement du Roi"],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "Haut-Roi des Noldor Complete",
+                "name": "Commandement Royal Complete",
                 "uniques": [
                     "UMay buy [Garde de Fingolfin] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
@@ -552,7 +552,7 @@
             {
                 "name": "Feu Intérieur",
                 "uniques": [
-                    "[+1 faith] from every [Barracks]"
+                    "[+1 Faith] from every [Barracks]"
                 ],
                 "row": 1,
                 "column": 1
