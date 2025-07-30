@@ -463,7 +463,7 @@
             {
                 "name": "Haut-Roi des Noldor Complete",
                 "uniques": [
-                    "Adopt [Commandement Royal]>"
+                    "Adopt [Commandement Royal]"
                 ]
             }
         ]
@@ -528,7 +528,7 @@
             {
                 "name": "Commandement Royal Complete",
                 "uniques": [
-                    "UMay buy [Garde de Fingolfin] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
+                    "May buy [Garde de Fingolfin] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
             }
         ]
