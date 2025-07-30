@@ -34,6 +34,24 @@
 		"attackSound": "Archer"
 	},
 	{
+		"name": "Garde de Fingolfin",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 70,
+		"requiredTech": "Réforme du Pouvoir",
+		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "Can transform to [Cavalerie de Fingolfin]", "Limited to [5] per Civilization", "[+1] Sight"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 70,
+		"requiredTech": "Réforme du Pouvoir",
+		"uniques": ["[+100]% Strength <vs [Land] units>", "Never appears as a Barbarian unit", "Unbuildable", "Can transform to [Garde de Fingolfin]","Can move after attacking", "Limited to [5] per Civilization"],
+		"attackSound": "Archer"
+	},
+	{
 		"name": "Garde de Menegroth",
 		"unitType": "Ranged",
 		"uniqueTo": "Doriath",
