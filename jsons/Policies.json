@@ -617,7 +617,7 @@
             {
                 "name": "Chasseurs Sylvestres",
                 "uniques": [
-                    "[+15]% Strenght <for [Land] units> in [Forest] tiles",
+                    "[+15]% Strength <for [Land] units> in [Forest] tiles",
                 ],
                 "row": 1,
                 "column": 1
@@ -633,7 +633,7 @@
             {
                 "name": "Musique de la Nature",
                 "uniques": [
-                    "[+1 Culture] on [Forest] tiles"
+                    "[+1 Culture] in [Forest] tiles"
                 ],
                 "row": 1,
                 "column": 5
@@ -659,7 +659,7 @@
             {
                 "name": "Fidèle d'Oromë Complete",
                 "uniques": [
-                    "Invisible to others <for [Military] unit> <when in [Forest] tiles>"
+                    "Invisible to others <for [Land] unit> <when in [Forest] tiles>"
                 ]
             }
         ]
