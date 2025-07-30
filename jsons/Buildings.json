@@ -518,6 +518,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Murs des Noldorin",
+		"replaces": "National Epic",
+		"uniqueTo": "Doriath",
+		"cityStrength": 10,
+		"cityHealth": 70,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fortifications",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Alhambra",
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
