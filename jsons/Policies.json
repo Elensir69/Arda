@@ -355,7 +355,7 @@
             {
                 "name": "Bénédiction Marine",
                 "uniques": [
-                    "[+1 Faith] [in all non-coastal cities]",
+                    "[+1 Faith] [in all coastal cities]",
                 ],
                 "row": 1,
                 "column": 1
@@ -415,62 +415,121 @@
         },
         "uniques": [
             "Only available <after adopting [Haut-Roi des Noldor]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+3 Faith] [in capital]",
         ],
         "policies": [
             {
-                "name": "77",
+                "name": "Bannière du Nord",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+10]% Strength <for [Land] units> <when fighting in [your] tiles>"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "78",
+                "name": "Cour de Fingolfin",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "Gifts of Gold to City-States generate [25]% more Influence"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "79",
+                "name": "Noblesse Guèrrière",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+30 faith] <upon being promoted> <for [Land] units>"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "73",
+                "name": "Ordre et Fierté",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "Gain a free [Murs des Noldorin] [in your cities]"
                 ],
-                "requires": ["79"],
+                "requires": ["Bannière du Nord"],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
-                "name": "74",
+                "name": "Marche vers la Mort",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+10]% Production when constructing [Military] units [in your cities] <when at war>"
                 ],
-                "requires": ["73"],
+                "requires": ["Noblesse guerrière"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Haut-Roi des Noldor Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "Adopt [Commandement Royal]>"
+                ]
+            }
+        ]
+    },
+    },
+        {
+        "name": "Commandement Royal",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Commandement Royal]>",
+            "[+5 Production] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "Union des Noldor",
+                "uniques": [
+                    "When declaring friendship, both parties gain a [+20]% boost to great person generation"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Espoir des étoiles",
+                "uniques": [
+                    "Enables conversion of city production to [Faith]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Courronement du Roi",
+                "uniques": [
+                    "Great General provides double combat bonus <upon being promoted> <for [Land] units>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Grandeur des Elfes",
+                "uniques": [
+                    "[+50]% Production towards any buildings that already exist in the Capital"
+                ],
+                "requires": ["Bannière du Nord"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Grande Alliance de Beleriand",
+                "uniques": [
+                    "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turn"
+                ],
+                "requires": ["Noblesse guerrière"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Haut-Roi des Noldor Complete",
+                "uniques": [
+                    "UMay buy [Garde de Fingolfin] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
             }
         ]
@@ -487,62 +546,56 @@
         },
         "uniques": [
             "Only available <after adopting [Serment de Feanor]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+5 Production] [in capital]",
+            "[-2 Faith] [in capital]",
         ],
         "policies": [
             {
-                "name": "32",
+                "name": "Feu Intérieur",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 faith] from every [Barracks]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "33",
+                "name": "Fureur Noldo",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "34",
-                "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+10]% Strength <for [Land] units> <vs cities>"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "35",
+                "name": "Fratricide",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "Rebel units may spawn <for [100] turns>"
                 ],
-                "requires": ["34"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Volonté de Feanor",
+                "uniques": [
+                    "Upon capturing a city, receive [100] times its [Production] production as [Faith] immediately"
+                ],
+                "requires": ["Fratricide"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "36",
+                "name": "Mémoire des Silmarils",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["34"],
+                "requires": ["Fratricide"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Serment de Feanor Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "May buy [Vengeurs de Feanor] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
             }
         ]
