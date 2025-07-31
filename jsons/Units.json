@@ -61,7 +61,8 @@
 		"attackSound": "Archer"
 	},
 	{
-		"unitType": "Gardiens de Pierre",
+		"name": "Gardiens de Pierre",
+		"unitType": "Armored",
 		"movement": 2,
 		"strength": 50,
 		"requiredTech": "Réforme du Pouvoir",
