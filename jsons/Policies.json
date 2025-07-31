@@ -748,62 +748,56 @@
         },
         "uniques": [
             "Only available <after adopting [Grands Forgerons]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Production] for every [Mines] [in capital]",
         ],
         "policies": [
             {
-                "name": "N1",
+                "name": "Forge Naine",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+2 production] [for every cities]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "N2",
+                "name": "Mailles Runées",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[10]% Strength <for [Lands] units>"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "N3",
+                "name": "Comptoirs du Nord",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "N4",
+                "name": "Animosité",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[-10]% Gold [in capital]",
+                    "[+10]% Production [in capital]"
                 ],
-                "requires": ["N3"],
+                "requires": ["Mailles Runées"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "N5",
+                "name": "Lames Noires",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+10]% Strength <for [Land] units> <vs [Ranged] units>"
                 ],
-                "requires": ["N3"],
+                "requires": ["Mailles Runées"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Grands Forgerons Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "New [Military] units start with [15] XP [in this city]"
                 ]
             }
         ]
@@ -820,62 +814,56 @@
         },
         "uniques": [
             "Only available <after adopting [Culture Naine]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Production] in [all] hills in [all cities]",
         ],
         "policies": [
             {
-                "name": "B1",
+                "name": "Mineurs Experts",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+2 Production] from every [Iron] resources"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "B2",
+                "name": "Dur comme Roche",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[Land] units gain the [Dur comme Roche] promotion",
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "B3",
+                "name": "Thesaurisation",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Gold] from every [Great Improvement]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "B4",
+                "name": "Respect des Anciens",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+1 Faith] from every [Mines]"
                 ],
-                "requires": ["B1"],
+                "requires": ["Dur comme Roche"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "B5",
+                "name": "Méfiance",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1 Gold, +1 Culture] per [2] population [in capital]",
+                    "[+50]% City-State Influence degradation"
                 ],
-                "requires": ["B3"],
+                "requires": ["Dur comme Roche"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Culture Naine Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "May buy [Gardiens de Pierre] units for [200] [Gold] [in your cities] at an increasing price ([+20])"
                 ]
             }
         ]
@@ -941,8 +929,7 @@
             {
                 "name": "Khazad Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "Double movement in [Hill] <for [Land] units>"
                 ]
             }
         ]
@@ -965,7 +952,7 @@
             {
                 "name": "Tunnels Profonds",
                 "uniques": [
-                    "Can instantly construct a [Mine] improvement <for [Civilian] units>"
+                    "[-100]% construction time for [Mine] improvements"
                 ],
                 "row": 1,
                 "column": 1
@@ -989,7 +976,7 @@
             {
                 "name": "Ornement de Pierre",
                 "uniques": [
-                    "[+1 Culture] from every [Great Improvement"
+                    "[+1 Culture] from every [Great Improvement]"
                 ],
                 "requires": ["Forteresses Souterraines"],
                 "row": 2,
