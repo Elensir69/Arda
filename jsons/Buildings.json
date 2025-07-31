@@ -520,7 +520,7 @@
 	{
 		"name": "Murs des Noldorin",
 		"replaces": "Castle",
-		"uniqueTo": ["Hithlum"],
+		"uniqueTo": "Hithlum", "Gondolin",
 		"cityStrength": 10,
 		"cityHealth": 70,
 		"hurryCostModifier": 25,
