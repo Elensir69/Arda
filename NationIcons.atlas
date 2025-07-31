@@ -5,9 +5,9 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Doriath
   rotate: false
-  xy: 141, 27
-  size: 100, 100
-  orig: 100, 100
+  xy: 120, 23
+  size: 107, 107
+  orig: 107, 107
   offset: 0, 0
   index: -1
 NationIcons/Gondolin
@@ -26,14 +26,14 @@ NationIcons/Nargothrond
   index: -1
 NationIcons/Falas
   rotate: false
-  xy: 510, 5
+  xy: 341, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Hitlhum
   rotate: false
-  xy: 220, 134
+  xy: 227, 134
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -54,7 +54,7 @@ NationIcons/Thargelion
   index: -1
 NationIcons/Ossiriand
   rotate: false
-  xy: 510, 5
+  xy: 355, 23
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -83,6 +83,20 @@ NationIcons/South Marches
 NationIcons/Ard-Galen
   rotate: false
   xy: 20, 134
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Belegost
+  rotate: false
+  xy: 469, 23
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nogrod
+  rotate: false
+  xy: 455, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
