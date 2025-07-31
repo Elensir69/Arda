@@ -520,7 +520,7 @@
 	{
 		"name": "Murs des Noldorin",
 		"replaces": "National Epic",
-		"uniqueTo": "Doriath",
+		"uniqueTo": ["Gondolin", "Hithlum", "Nargothrond"],
 		"cityStrength": 10,
 		"cityHealth": 70,
 		"hurryCostModifier": 25,
