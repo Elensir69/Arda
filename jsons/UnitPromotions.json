@@ -13,6 +13,10 @@
         "row": 0,
         "column": 0
     },
+	{
+		"name": "Dur comme Roche",
+		"uniques": ["[+25]% Strength <when defending>"],
+	},
 
 	// Ranged+Siege
 	{
