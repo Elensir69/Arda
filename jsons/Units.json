@@ -61,11 +61,11 @@
 		"attackSound": "Archer"
 	},
 	{
-		"unitType": "Sword",
+		"unitType": "Gardiens de Pierre",
 		"movement": 2,
-		"strength": 70,
+		"strength": 50,
 		"requiredTech": "Réforme du Pouvoir",
-		"uniques": ["[+100]% Strength <vs [Monstres] units>", "Never appears as a Barbarian unit", "Unbuildable", "Can transform to [Cavalerie de Fingolfin]", "Limited to [5] per Civilization", "[+1] Sight"],
+		"uniques": ["[+100]% Strength <when defending>", "Never appears as a Barbarian unit", "Unbuildable", "Limited to [5] per Civilization"],
 		"attackSound": "Archer"
 	},
 	{
