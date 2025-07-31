@@ -892,54 +892,49 @@
         },
         "uniques": [
             "Only available <after adopting [Khazad]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Culture] from [Mountain] tiles [in your cities]",
+            "[+1 Gold] from [Mountain] tiles [in your cities]",
         ],
         "policies": [
             {
-                "name": "V1",
+                "name": "Mines de l'Ancien Temps",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+2 Production] from [Mine] tiles [in your cities] <in tiles adjacent to [Mountain] tiles>"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "V2",
+                "name": "Fraternité des Tunnels",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+100]% Gold from Great Merchant trade missions"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "V3",
+                "name": "Pacte des Barbes Longues",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Production, +1 Culture] from every [Forge]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "V4",
+                "name": "Gloire d’Azaghâl",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+10]% Strength <for [Land] units> <vs [Monstres] units>"
                 ],
-                "requires": ["V2"],
+                "requires": ["Pacte des Barbes Longues"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "V5",
+                "name": "Souvenirs Gravés",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1 Culture] from every [Monument]"
                 ],
-                "requires": ["V1"],
+                "requires": ["Pacte des Barbes Longues"],
                 "row": 2,
                 "column": 4
             },
@@ -970,8 +965,7 @@
             {
                 "name": "Tunnels Profonds",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "Can instantly construct a [Mine] improvement <for [Civilian] units>"
                 ],
                 "row": 1,
                 "column": 1
@@ -979,8 +973,7 @@
             {
                 "name": "Forteresses Souterraines",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "[+1 Faith] from every [Walls]"
                 ],
                 "row": 1,
                 "column": 3
@@ -988,7 +981,7 @@
             {
                 "name": "Ponts d'Ingénierie",
                 "uniques": [
-                    "[+1 Production] [in all cities]"
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -996,8 +989,7 @@
             {
                 "name": "Ornement de Pierre",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+1 Culture] from every [Great Improvement"
                 ],
                 "requires": ["Forteresses Souterraines"],
                 "row": 2,
@@ -1006,7 +998,7 @@
             {
                 "name": "Escaliers infranchissables",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+15]% Strength for cities"
                 ],
                 "requires": ["Forteresses Souterraines"],
                 "row": 2,
