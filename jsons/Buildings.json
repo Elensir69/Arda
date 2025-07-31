@@ -519,8 +519,8 @@
 	},
 	{
 		"name": "Murs des Noldorin",
-		"replaces": "National Epic",
-		"uniqueTo": ["Gondolin", "Hithlum", "Nargothrond"],
+		"replaces": "Castle",
+		"uniqueTo": ["Hithlum"],
 		"cityStrength": 10,
 		"cityHealth": 70,
 		"hurryCostModifier": 25,
