@@ -716,6 +716,17 @@
 		"requiredTech": "Réforme du Pouvoir",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Porte Naine",
+		"uniqueTo": "Belegost",
+		"cost": 420,
+		"cityStrength": 9,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Réforme du Pouvoir",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 
 	// Religious buildings
 
