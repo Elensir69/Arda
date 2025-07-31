@@ -676,62 +676,60 @@
         },
         "uniques": [
             "Only available <after adopting [Seigneurs du Sud]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+3 Culture] from every [Camp]",
         ],
         "policies": [
             {
-                "name": "61",
+                "name": "Frères de Galadriel",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness] per [4] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "62",
+                "name": "Amitié des Hommes",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
+                    "Empire enters golden age",
+                    "[+10]% growth [in capital]"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "63",
+                "name": "Défense du Sud",
                 "uniques": [
                     "Units in [all] cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "64",
+                "name": "Pistage",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Food] [in capital]"
+                    "[+1] Sight <for [all] units>",
+                    "Improves movement speed on roads"
+                    
                 ],
-                "requires": ["61"],
+                "requires": ["Frères de Galadriel"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "65",
+                "name": "Chasse sous les étoiles",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
+                    "[+1 Gold, +1 Happiness, +1 Culture] for every [Camp]"
                 ],
-                "requires": ["64"],
+                "requires": ["Défense du Sud"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Seigneurs du Sud Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "[-66]% Culture cost of natural border growth [in all cities]"
                 ]
             }
         ]
