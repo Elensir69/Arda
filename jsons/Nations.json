@@ -603,4 +603,65 @@
 		],
 		"cities": ["Gabilgathol", "Col des Ered Luin", "Mines de Rerir"]
 	},
+		{
+		"name": "Ramdal",
+		"adjective": ["Ramdalrim"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Ramdal"]
+	},
+		{
+		"name": "Vinyamar",
+		"adjective": ["Vinyamrim"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Vinyamar"]
+	},
+		{
+		"name": "Nan Tathren",
+		"adjective": ["Tathrenrim"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Nan Tathren"]
+	},
+		{
+		"name": "Cap Balar",
+		"adjective": ["Balarim"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Cap Balar"]
+	},
+		{
+		"name": "Taur-im-Duinath",
+		"adjective": ["Taurim"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Taur-im-Duinath"]
+	},
+
 ]
