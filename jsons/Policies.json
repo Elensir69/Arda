@@ -964,12 +964,11 @@
         },
         "uniques": [
             "Only available <after adopting [Grands Architectes]>",
-            "[+3 Culture] [in capital]",
-            "[+1 Culture] in [all] forest in [all cities]",
+            "[+1 Production] [in all cities]",
         ],
         "policies": [
             {
-                "name": "C1",
+                "name": "Tunnels Profonds",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
@@ -978,7 +977,7 @@
                 "column": 1
             },
             {
-                "name": "C2",
+                "name": "Forteresses Souterraines",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
@@ -987,39 +986,36 @@
                 "column": 3
             },
             {
-                "name": "C3",
+                "name": "Ponts d'Ingénierie",
                 "uniques": [
-                    "Units in [all] cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
+                    "[+1 Production] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "C4",
+                "name": "Ornement de Pierre",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["C1"],
+                "requires": ["Forteresses Souterraines"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "C5",
+                "name": "Escaliers infranchissables",
                 "uniques": [
                     "[+1 Gold, +1 Happiness, +1 Culture] per [2] population [in capital]"
                 ],
-                "requires": ["C2"],
+                "requires": ["Forteresses Souterraines"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Grands Architectes Complete",
                 "uniques": [
-                    "[+15]% Culture [in all cities]",
-                    "[+100]% Yield from every [Great Improvement]"
+                    "[+50]% Production <when constructiong [Porte Naine]>"
                 ]
             }
         ]
