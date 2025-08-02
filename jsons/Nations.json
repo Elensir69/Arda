@@ -842,7 +842,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [158,158,158],
 		"uniqueName": "Noir Ennemi du Monde",
-		"uniques": ["[+7 Production, +7 Food, +7 Science, +7 Gold, +7 Happiness] from every [tile] <when at war>",
+		"uniques": ["[+7 Production, +7 Food, +7 Science, +7 Gold, +7 Happiness] from [all] tiles <when at war>",
 		"[+10 Production, +15 Food, +5 Science, +10 Happiness] [in capital]",
 		"[+4 Production, +4 Food, +2 Science, +1 Gold, +1 Happiness] from every [Snow] tiles",
 		"[-100 Production] from every [Forest]",
