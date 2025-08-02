@@ -506,7 +506,7 @@
 		"[+33]% Strength <when at war> <with [70]% chance> <for [Land] units>",
 		"[+1] Sight <for [Land] units>",
 		"[Land] units gain the [Shock III] promotion",
-		"[+1 Production] from every [Plain] tiles [in your cities]",
+		"[+1 Production] from every [Plains] tiles [in your cities]",
 		"[+1 Production] from every [Grassland] tiles [in your cities]",
 		"Starts with [Seigneurs du Sud] adopted",
 		"Starts with [Culture Noldo] adopted",
@@ -648,7 +648,7 @@
 		"name": "Dor-lómin",
 		"leaderName": "Hador",
 		"adjective": ["Edain"],
-		"startBias": ["Plain"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Time",
 		
 		"startIntroPart1": "Welcome in the most magnificient country of the world",
