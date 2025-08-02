@@ -230,6 +230,7 @@
 				"name": "Créatures de l'Ombre",
 				"row": 5,
 				"prerequisites": ["Orfèvrerie"],
+				"uniques" : ["unavailable"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
@@ -302,34 +303,34 @@
 				"name": "Sagesse Elfique",
 				"row": 2,
 				"prerequisites": ["Grandes Gardes"],
-				"uniques" : ["Only available <for [South Marches] Civilizations> <for [Ard-Galen] Civilizations> <for [Himlad] Civilizations> <for [Maglor's Gap] Civilizations> <for [Thargelion] Civilizations> <for [Falas] Civilizations> <for [Himring] Civilizations> <for [Hitlum] Civilizations> <for [Gondolin] Civilizations> <for [Nargothrond] Civilizations> <for [Doriath] Civilizations> <for [Ossiriand] Civilizations> <while the empire is happy>"],
+				"uniques" : ["unavailable"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
 				"name": "Espoir des Hommes",
 				"row": 4,
 				"prerequisites": ["Grandes Gardes"],
+				"uniques" : ["unavailable"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
 				"name": "Réforme du Pouvoir",
 				"row": 6,
 				"prerequisites": ["Grandes Gardes"],
-                		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
 				"name": "Savoir Nain",
 				"row": 8,
 				"prerequisites": ["Science des Armes"],
-                		"uniques": ["Only available <for [Belegost] Civilizations> <for [Nogrod] Civilizations> <while the empire is happy>"],
+                		"uniques": ["unavailable"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
 				"name": "Magie Obscure",
 				"row": 10,
 				"prerequisites": ["Science des Armes"],
-                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+                		"uniques": ["unavailable"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
 		]
@@ -359,7 +360,7 @@
 				"name": "Marche des Hommes",
 				"row": 5,
 				"prerequisites": ["Réforme du Pouvoir"],
-                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+                		"uniques": ["unavailable"],
 				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
