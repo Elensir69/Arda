@@ -246,7 +246,7 @@
                 "name": "Royaumes Refuges",
                 "uniques": [
                     "[+10]% growth [in capital]",
-                    "[+1 Food] per [3] population [in capital]]"
+                    "[+1 Food] per [3] population [in capital]"
                 ],
                 "requires": ["Voies Cachées"],
                 "row": 2,
