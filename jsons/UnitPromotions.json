@@ -4,6 +4,10 @@
 	  	"name": "Withdraw",
   		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
   	},
+	{
+	  	"name": "Peuple des Montagnes",
+  		"uniques": ["Can pass through impassable tiles"]
+  	},
 		{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
@@ -16,6 +20,10 @@
 	{
 		"name": "Dur comme Roche",
 		"uniques": ["[+25]% Strength <when defending>"],
+	},
+	{
+		"name": "Grande Discrétion",
+		"uniques": ["Invisible to non-adjacent units"],
 	},
 
 	// Ranged+Siege
