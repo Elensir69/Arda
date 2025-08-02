@@ -1,0 +1,41 @@
+
+NationIcons.png
+size: 700, 700
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Culte Noir
+  rotate: false
+  xy: 80, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lumière des Valar
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Confessions de la Nature
+  rotate: false
+  xy: 196, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mémoire des Héros
+  rotate: false
+  xy: 320, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Défiance
+  rotate: false
+  xy: 431, 15
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
