@@ -998,4 +998,785 @@
             }
         ]
     },
+            {
+        "name": "Edain",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Edain]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "A",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "B",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "C",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "D",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["B"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "10",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["B"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Edain Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Naissance des Hommes",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Naissance des Hommes]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "111",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "121",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "131",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "141",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["121"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "101",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["121"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Naissance des Hommes Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Maison de Haleth",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Maison de Haleth]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "112",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "122",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "132",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "142",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["122"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "102",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["122"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Maison de Haleth Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Maison de Hador",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Maison de Hador]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "113",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "123",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "133",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "143",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["123"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "103",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["123"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Maison de Hador Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Maison de Bëor",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Maison de Bëor]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "114",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "124",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "134",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "144",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["124"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "104",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["124"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Maison de Bëor Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Maison de Bór",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Maison de Bór]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "115",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "125",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "135",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "145",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["125"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "105",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["125"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Maison de Bór Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Orientaux",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Orientaux]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "1111",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1211",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "1311",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "1411",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1211"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "1011",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1211"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Orientaux Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Maison d'Ulfang",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Maison d'Ulfang]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "1122",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1222",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "1322",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "1422",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1222"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "1022",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1222"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Maison d'Ulfang Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Monde Sombre",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Monde Sombre]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "1133",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1233",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "1333",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "1433",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1233"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "1033",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1233"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Monde Sombre Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Magie Noire",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Magie Noire]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "1144",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1244",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "1344",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "1444",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1244"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "1044",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1244"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Magie Noire Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Melkor le Grand",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Melkor le Grand]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "1155",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1255",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "1355",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "1455",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1255"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "1055",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1255"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Melkor le Grand Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+            {
+        "name": "Seigneur Sauron",
+        "era": "Âge des Étoiles",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "Only available <after adopting [Seigneur Sauron]>",
+            "[+1 Production] [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "2",
+                "uniques": [
+                    "[-100]% construction time for [Mine] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "1",
+                "uniques": [
+                    "[+1 Faith] from every [Walls]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "4",
+                "uniques": [
+                    "[+1 Science] from [Mountain] tiles [in your cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "3",
+                "uniques": [
+                    "[+1 Culture] from every [Great Improvement]"
+                ],
+                "requires": ["1"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "2",
+                "uniques": [
+                    "[+15]% Strength for cities"
+                ],
+                "requires": ["1"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Seigneur Sauron Complete",
+                "uniques": [
+                    "[+50]% Production <when constructiong [Porte Naine]>"
+                ]
+            }
+        ]
+    },
+    
 ]
