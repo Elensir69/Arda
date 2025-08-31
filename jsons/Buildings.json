@@ -73,6 +73,16 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
+		"name": "Grande Salle de Menegroth",
+		"uniqueTo": "Doriath",
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"Maintenance": 1,
+		"faith": 1,
+		"requiredTech": "Feu Secret",
+		"uniques": ["Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Free [Thingol] appears"]
+	},
+	{
 		"name": "Temple of Artemis",
 		"culture": 1,
 		"isWonder": true,
