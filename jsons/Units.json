@@ -10,6 +10,7 @@
 		"range": 3,
 		"cost": 56,
 		"requiredTech": "Archery",
+		"uniques" : ["Can upgrade to [Garde de Menegroth]"],
 		"promotions": ["Barrage III","Woodsman"],
 		"attackSound": "Archer"
 	},
@@ -79,6 +80,7 @@
 		"range": 3,
 		"cost": 75,
 		"requiredTech": "Architecture",
+		"uniques" : ["Can upgrade to [Archers de Cùthalion]"],
 		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
 	},
@@ -92,6 +94,7 @@
 		"range": 3,
 		"cost": 120,
 		"requiredTech": "Conseil des Rois",
+		"uniques" : ["Can upgrade to [Chasse de Doriath]"],
 		"promotions": ["Barrage III","Cover II"],
 		"attackSound": "Composite Bowman"
 	},
@@ -105,6 +108,7 @@
 		"range": 2,
 		"cost": 225,
 		"requiredTech": "Grandes Gardes",
+		"uniques" : ["Can upgrade to [Garde de Melian]"],
 		"promotions": ["Barrage III","Blitz", "Woodsman"],
 		"attackSound": "Archer"
 	}
