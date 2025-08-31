@@ -534,6 +534,25 @@
 		"movement": 5
 	},
 
+	/* Hero units */
+
+	{
+		"name": "Thingol",
+		"unitType": "Hero",
+		"movement": 2,
+		"strength": 25,
+		"cost": 120,
+		"attackSound": "metalhit"
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Clairière de Valinor] improvement <every [10] turns>",
+            "Unbuildable",
+			"Can generate a large amount of culture <every [10] turns>",
+			"[-100] Movement <in [Unowned] tiles>",
+			"[-100] Movement <in [Foreign] tiles>"],
+	},
+
 	/* Religious units */
 
 	{
